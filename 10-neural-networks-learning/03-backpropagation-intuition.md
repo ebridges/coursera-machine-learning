@@ -1,7 +1,5 @@
 ---
 Video: machine-learning/09_neural-networks-learning/01_cost-function-and-backpropagation/05_backpropagation-intuition.mp4
-
-
 ---
 
 ## Backpropagation Intuition
@@ -55,11 +53,9 @@ cost(i) = y^{(i)} \ \log (h_\Theta (x^{(i)})) + (1 - y^{(i)})\ \log h_\Theta(x^{
 $$
 These provide a measure of how much we would want to change the weights of the intermediate values of the computation (the $z$ values). Recall that our derivative is the slope of a line tangent to the cost function, so the steeper the slope the more incorrect we are.
 
-
-
 Let us consider the following neural network below and see how we could calculate some $$\delta_j^{(l)}$$:
 
-xxx
+![img](03-backpropagation-intuition.assets/qc309rdcEea4MxKdJPaTxA_324034f1a3c3a3be8e7c6cfca90d3445_fixx.png)
 
 In the image above, to calculate $$\delta_2^{(2)}$$, we multiply the weights $$\Theta_{12}^{(2)}$$ and $$\Theta_{22}^{(2)}$$ by their respective $$\delta$$ values found to the right of each edge. So we get 
 $$
