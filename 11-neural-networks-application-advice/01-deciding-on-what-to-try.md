@@ -18,5 +18,5 @@ Concretely, suppose you have implemented regularized linear regression to predic
 
 Each of these can be multi-month projects and often people unfortunately go with their gut instinct in choosing, and can end up wasting six months only to discover that it wasn't a promising pursuit.
 
-  Machine learning diagnostics can be used to gain insights about what is/isn't working with a learnign algorithm and gain guidance on how best to improve performance.  These can be challenging to implement but will save months by avoiding avenues that won't be productive.
+  Machine learning diagnostics can be used to gain insights about what is/isn't working with a learning algorithm and gain guidance on how best to improve performance.  These can be challenging to implement but will save months by avoiding avenues that won't be productive.
 
