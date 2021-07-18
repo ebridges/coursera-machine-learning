@@ -52,8 +52,3 @@ To express the steps for stochastic gradient descent:
 What stochastic gradient descent is doing is scanning across the training examples, and only look at the first example will take a step only using that one example.  From there it will take one step, and look at the next training example, and so on, each time trying to fit a bit better.  This is whe we first shuffle the dataset.
 
 Rather than scanning through all examples stochastic gradient descent will look at a single example and will start making progress, gradually moving the parameters in general toward the global minimum.  In practice it will typically move/congregate around the global minimum.
-
-
-
-
-

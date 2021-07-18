@@ -23,4 +23,3 @@ Evaluate how feasible it would be to gather more data, sometimes it will not be 
 * Artificial data synthesis
 * Collect/label it yourself
 * Crowd source it (e.g. Mechanical Turk)
-

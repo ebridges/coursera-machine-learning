@@ -57,4 +57,3 @@ s.t. \\
 \end{align*}
 $$
 $p^{(i)}$, which is the projection of $x^{(i)}$ onto $\theta$, corresponds to the margin of the hypothesis, and if that is large that will be consistent with the need to minimize $\left\Vert \theta\right\Vert$.
-

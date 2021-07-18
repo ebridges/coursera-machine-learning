@@ -37,6 +37,3 @@ $$
 Test Error= \frac{1}{m_{test}}\sum^{m_{test}}_{i=1}err(h_\Theta(x^{(i)}_{test}),y^{(i)}_{test})
 $$
 This gives us the proportion of the test data that was misclassified.
-
-
-

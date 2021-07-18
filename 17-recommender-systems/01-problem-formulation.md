@@ -21,4 +21,3 @@ And the following notation:
 * $y(i,j)$=the rating (0-5) given by user $j$ to movie $i$ (defined only if $r(i,j)=1$)
 
 Given this dataset, come up with a learning algorithm that can be used given this data and try to predict the values that are missing (set to $?$), in other words find movies that the person has not watched that they may like.
-

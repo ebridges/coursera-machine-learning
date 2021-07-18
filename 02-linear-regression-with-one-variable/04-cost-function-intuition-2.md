@@ -25,4 +25,3 @@ However, in this lesson we're keeping both parameters, so we wil need a differen
 We see the two theta parameters across the bottom, and the height of the surface above those indicates the value of the cost function.  This bowl like shape illustrates the mimimal values of $\theta_{0},\theta_{1}$ to reach our goal of minimizing the cost function.
 
 Also illustrated in this lesson were contour plots, which didn't make a lot of sense to me.
-

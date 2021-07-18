@@ -91,4 +91,3 @@ When implementing this in software, you can implement this in one line of code:
 ```
 prediction = dataMatrix * parameters
 ```
-

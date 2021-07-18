@@ -25,4 +25,3 @@ However, this method doesn't work well because classification is not actually a 
 The classification problem is just like the regression problem except that the values we now want to predict take on only a small number of discrete values.
 
 Logistic regression is an algorithm that we can use for classification that will guarantee that the results of our hypothesis satisfy the expression $0\leq h_\theta(x)\leq1$.
-

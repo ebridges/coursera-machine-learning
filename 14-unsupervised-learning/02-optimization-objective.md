@@ -23,6 +23,3 @@ $$
 The cost function $J()$ (also known as the _distortion_ of the k-means algorithm) accepts all the indices and $\mu$ locations, and the calculation is the average of the squared sum of the differences between the the example data and the cluster centroid.
 
 What k-means can be shown to be doing is that it's trying to define parameters $c^{(i)}$ and $\mu_i$ to try to minimize this cost function $J()$.
-
-
-

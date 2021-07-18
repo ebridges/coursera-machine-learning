@@ -41,8 +41,3 @@ $$
 What these features indicate is how similar $x$ to the landmarks.  When it's zero it's far from the landmark, and when it's 1 it's close to the landmark.  Each landmark defines a new feature.
 
 This is how via the definition of landmarks and the kernel function we can learn pretty complex non-linear decision boundaries where we predict positive values for $y$ when $x$ is close to a landmark and zero when we're far away.  This is part of the idea of kernels and how we use them with support vector machines by defining these extra features using landmarks and similarity functions.
-
-
-
-
-

@@ -21,4 +21,3 @@ Theta3 = rand(1,11) * (2 * INIT_EPSILON) - INIT_EPSILON;
 ```
 
 [^1]: The epsilon used here is unrelated to the epsilon from Gradient Checking
-

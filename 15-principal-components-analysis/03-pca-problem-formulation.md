@@ -35,4 +35,3 @@ With linear regression is trying to fit a straight line so as to minimize the sq
 In PCA it's trying to minimize the magnitude, or shortest orthogonal distances.  
 
 More generally, in linear regression the goal is to predict $y$ given $x$. In PCA, there is no "special" variable $y$ that we're trying to predict by employing this method.  If we have 3D data and we're trying to reduce the data from 3D to 2D, then we have 3 features all considered equally, and there isn't some feature $y$ that we're seeking to derive.
-

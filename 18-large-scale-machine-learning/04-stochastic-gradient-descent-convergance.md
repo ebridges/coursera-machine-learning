@@ -45,6 +45,3 @@ Here we see that the curve is increasing, and if this is the case the algorightm
 When we run stochastic gradient descent with a constant learning rate (the typical case) it won't ever actually converge, but will oscillate around it forever. 
 
 However, we may want to force convergence on the global minimum.  To do so, we may slowly decrease the learning rate over time: $\alpha = \frac{const1}{iterationNumber + const2}$. To do this though we'd need to spend time playing with these two additional parameters in order to get the algorithm to work well, making the overall program more complex and finicky.
-
-
-

@@ -35,4 +35,3 @@ So, when building such a classifier, how could we spend our time in order to mak
 * Detect misspellings (e.g. "d1sc0unts")
 
 Each of these can be valid approaches, but it's not clear upfront which may be more valuable than another.  In order to assist in choosing approaches, next we will look at a strategy for evaluating different strategies known as "Error Analysis."
-

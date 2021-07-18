@@ -43,4 +43,3 @@ The values for each of the "activation" nodes is obtained as follows:
 This is saying that we compute our each of the activation nodes by using a 3×4 matrix of parameters. We apply each row of the parameters to our inputs to obtain the value for one activation node. More generally, if a network has $s_j$ units in layer $j$, $s_j+1$ units in layer $j+1$, then $\theta^{(j)}$ will be of dimension $s_{j+1}\times(s_j+1)$
 
 Our hypothesis output is the logistic function applied to the sum of the values of our activation nodes, which have been multiplied by yet another parameter matrix $\theta^{(2)}$ containing the weights for our second layer of nodes.
-

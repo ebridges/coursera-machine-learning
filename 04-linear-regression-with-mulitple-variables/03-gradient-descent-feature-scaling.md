@@ -45,4 +45,3 @@ x_2=\frac{numBedrooms-2}{5}
 -0.5\leq x_2\leq0.5
 $$
 Generally, replace feature $x_1$ with $\frac{x_i-\mu_i}{s_1}$ where $\mu_1$ is the average value of $x_1$ and $s_1$ is the range (max-min) or the standard deviation of the dataset.
-

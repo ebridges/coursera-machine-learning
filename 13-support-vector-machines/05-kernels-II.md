@@ -69,4 +69,3 @@ You also choose the parameter $\sigma^2$.
 * If $\sigma^2$ is small, then the features will vary more abruptly. Lower bias, and higher variance.
 
   <img src="05-kernels-II.assets/image-20210526083016189.png" alt="image-20210526083016189" style="zoom:25%;" />
-

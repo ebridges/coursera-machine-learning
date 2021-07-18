@@ -29,4 +29,3 @@ $$
 Where $P$ is precision, and $R$ is recall.
 
 This works better than, say, an average because it gives the lower value of $P$ or $R$ a higher weight.
-

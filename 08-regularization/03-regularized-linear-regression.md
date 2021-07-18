@@ -86,4 +86,3 @@ Suppose our number of examples ($m$) has the following relationship to the numbe
 If we have fewer examples than features, then the expression $X^TX$ will be non-invertible.  If you use the `pinv` function in octave, it'll give you a result it's not clear it'll give a very good hypothesis.  In another language, using a regular `inv` it simply will not work because of this non-invertibility.
 
 Fortunately, regularization will take care of this for us. As long as the value of $\lambda$ is greater than zero, the product of lambda with that special matrix added to the expression $X^TX$ will give us a result that will always be invertible. 
-

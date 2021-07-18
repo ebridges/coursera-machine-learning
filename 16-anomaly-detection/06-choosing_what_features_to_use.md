@@ -22,8 +22,3 @@ When doing anomaly detection we want:
 * $p(x)$ to be small for anomalous examples of $x$
 
 The most common issue we run into is that $p(x)$ is comparable for both normal and anomalous examples (e.g. both large).  The process of this is to look at the mistakes that are being made, and to understand what features distinguish that particular error such that we can then use that to improve $p(x)$.
-
-
-
-
-

@@ -140,4 +140,3 @@ $$
 
 
 <img src="07-multivariate-gaussian-distribution.assets/image-20210606171620892.png" alt="image-20210606171620892" style="zoom:50%;" />
-

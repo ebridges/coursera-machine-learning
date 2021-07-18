@@ -29,4 +29,3 @@ First, you need to decide on a network architecture.  The choices that need to b
    * Disable gradient checking code.
 7. Use gradient descent (or advanced optimization e.g. `fminunc`) method with back propagation to try to minimize $J(\Theta)$ as a function of paramters $\Theta$.
    * Note $J(\Theta)$ is non-convex and can result in local optimization.
-

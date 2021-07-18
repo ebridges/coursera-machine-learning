@@ -34,4 +34,3 @@ If a learning algorithm is suffering from **high bias**, getting more training d
 If a learning algorithm is suffering from **high variance**, getting more training data is likely to help.  As more data is added both $J_{train}$ and $J_{cv}$ will improve and approach convergence.
 
 <img src="06-learning-curves.assets/image-20210507092018363.png" alt="image-20210507092018363" style="zoom:50%;" />
-

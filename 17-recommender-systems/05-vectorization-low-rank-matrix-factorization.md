@@ -50,16 +50,3 @@ We end up with an $n$-degree vector of features; after we've learned these, it's
 How would we find movies $j$ that are related to movie $i$?
 
 Well, now that we've learned these feature vectors we have a very convenient way to find other movies with a similar set of features.  Specifically, if the value of $||x^{(i)}-x^{(j)}||$ is small then movie $j$ and movie $i$ are "similar."  These movies would be good candidates to recommend to a user as something else they may like.
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -15,4 +15,3 @@ In other words, we are basically choosing one class and then lumping all the oth
  First we would train a logistic regression classifier $h^{(i)}_\theta(x)$ for each class $i$ to predict the probability that $y=i$. Then, on a new input $x$, to make a prediction, we run all $n$ classifiers on $x$ and pick the class $i$ that maximizes $\max_{i}h^{(i)}_\theta(x)$.
 
 <img src="05-multiclass-classification.assets/image-20210317204524289.png" alt="image-20210317204524289" style="zoom:50%;" />
-

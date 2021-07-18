@@ -71,4 +71,3 @@ $$
 ### SVM Hypothesis
 
 The hypothesis for SVM will output 1 if $\theta^Tx\ge0$ and 0 otherwise.
-

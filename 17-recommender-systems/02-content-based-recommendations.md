@@ -92,4 +92,3 @@ $$
 For many movies, we don't actually have, or maybe it's very difficult to get, features that describe the movies we're trying to predict.
 
 And so, in the next lesson, we'll start to talk about an approach to recommender systems that isn't content based and does not assume that we have someone else giving us all of these features for all of the movies in our data set.
-

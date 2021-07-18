@@ -36,5 +36,3 @@ Given these, each of the nodes from $(\ref{ref2})$ can be expressed as follows p
 $$
 \begin{aligned}a^{(2)}&=g(\Theta^{(1)} \times x)\\ a^{(3)}&=g(\Theta^{(2)} \times a^{(2)})\\ h_{\Theta }(x)&=a^{(3)}\end{aligned}
 $$
-
-

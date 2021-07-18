@@ -27,10 +27,3 @@ More generally, we'd like to approximate the original dataset by projecting all 
 In this case we may have a dataset that is rougly lies on a 2D plane.  If we then project the data onto that surface, we would then only need two numbers to represent those values:
 
 <img src="01-motivation-data-compression.assets/image-20210531051433858.png" alt="image-20210531051433858" style="zoom:50%;" />
-
-
-
-
-
-
-

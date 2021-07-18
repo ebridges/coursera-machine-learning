@@ -75,4 +75,3 @@ Next we get `U` using $\Sigma$, grabbing the first $k$ columns, and multiplying 
 Ureduce = U(:,1:k);
 z=Ureduce'*x;
 ```
-

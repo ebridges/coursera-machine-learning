@@ -48,4 +48,3 @@ That said, using a larger neural network often is more effective with regulariza
 * Lower-order polynomials (low model complexity) have high bias and low variance. In this case, the model fits poorly consistently.
 * Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 * In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
-

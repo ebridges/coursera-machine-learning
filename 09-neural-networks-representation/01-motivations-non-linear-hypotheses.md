@@ -32,5 +32,3 @@ This would result in roughly 3,000,000 features, as follows:
 $$
 \frac{n^2}{2}=\frac{2500^2}{2}=3,125,000
 $$
-
-

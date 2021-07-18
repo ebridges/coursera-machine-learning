@@ -68,4 +68,3 @@ $$
 $$
 \frac{\partial}{\partial\theta_0}=\frac{1}{m}\sum^m_{i=1}(h_\theta(x^{(i)})-y^{(i)})x^{(i)}_0+\frac{\lambda}{m}\theta_2
 $$
-

@@ -25,4 +25,3 @@ In the process of evaluating an anomaly detection algorithm, we introduced label
 * Email spam classification
 * Weather prediction 
 * Cancer classification
-

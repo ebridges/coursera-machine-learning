@@ -19,4 +19,3 @@ If our training set's learning curve plotted compared to the cross validation ob
 But if our plot looks like this, high bias visualization, then it wouldn't make sense to test against more examples:
 
 <img src="01-learning-with-large-datasets.assets/image-20210715151751631.png" alt="image-20210715151751631" style="zoom:50%;" />
-

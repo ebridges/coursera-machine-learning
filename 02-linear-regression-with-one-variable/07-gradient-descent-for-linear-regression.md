@@ -25,4 +25,3 @@ The cost function for linear regression will always be a bowl shaped (or, "conve
 In every step of gradient descent we end up looking at all training examples.  When computing derivatives we end up computing over all $m$ training examples. Turns out there are other version of Gradient descent that look at small subsets of the training set at a time.
 
 it is possible to obtain the minimum cost function w/o needing to use an iterative function like gradient descent.  This is known as the "normal equations method", however gradient descent scales better to larger data sets.
-

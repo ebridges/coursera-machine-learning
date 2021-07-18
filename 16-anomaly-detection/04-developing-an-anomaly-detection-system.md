@@ -42,10 +42,3 @@ Because the data is overwhelmingly normal, resulting in a skewed class, classifi
 * Computing the precision/recall
 * Computing the $F_1$ score.
   * Try many values of $\epsilon$ to revaluate the $F_1$ score
-
-
-
-
-
-
-

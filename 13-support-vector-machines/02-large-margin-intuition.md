@@ -52,4 +52,3 @@ In the next section we'll explain why we end up with a large margin in this way.
 ##### Large Margin Classifier in Presence of Outliers
 
 The above is an example when C is very large (~100000).  When used in this way, the data is very sensitive to outliers. In practice, the value of C will not be so large and will do the right thing.  
-

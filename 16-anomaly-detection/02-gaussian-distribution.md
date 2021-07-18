@@ -49,4 +49,3 @@ $$
 \sigma^2=\frac{1}{m}\sum^{m}_{i=1}\left(x^{(i)}-\mu\right)^2
 $$
 Our estimate for the variance relies on the mean we estimated above, and is just the average of the squared differences — also known as the *maximum likelihood estimation*.
-

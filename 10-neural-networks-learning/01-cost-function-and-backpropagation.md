@@ -37,4 +37,3 @@ _Note_:
 - The double sum simply adds up the logistic regression costs calculated for each cell in the output layer
 - The triple sum simply adds up the squares of all the individual $\Theta$s in the entire network.
 - The $i$ in the triple sum does **not** refer to training example $i$
-

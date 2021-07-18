@@ -42,4 +42,3 @@ $$
    * The two terms multiplied by $\alpha$ in the the above are the partial derivatives of the cost function with respect to $x^{(i)}_k$ and $\theta^{(j)}_k$, respectively.
 
 3. For a user with parameters $\theta$ and a movie with (learned) features $x$, predict a star rating of $\theta^Tx$.
-

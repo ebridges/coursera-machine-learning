@@ -25,6 +25,3 @@ C --> D(Character recognition)
 3. **Character classification**: taking the images of individual letters and extracting the ASCII character code corresponding to it.
 
    *Optionally, do cleanup like spell checking.*
-
-
-

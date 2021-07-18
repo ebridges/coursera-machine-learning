@@ -40,6 +40,3 @@ To address this you should use a smaller learning rate, as what's happening is t
 For sufficiently small $\alpha$, then $J(\theta)$ should decrease on every iteration. But if $\alpha$ is too small, gradient descent will be slow to converge.  If it's too large, $J(\theta)$ may not decrease on every iteration, converging eventually or not at all.
 
 To choose $\alpha$, try a range of values (e.g. 0.001, 0.003, 0.01, 0.03, 0.1, 0.3 1, etc), where each value is about 3x of the other.
-
-
-

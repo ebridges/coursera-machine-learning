@@ -67,4 +67,3 @@ $$
 Thus predicting a value of 1 whenever $x^2_1+x^2_2$.  This is an equation for a circle of radius 1 centered on the origin (the magenta line in this illustration), i.e. the decision boundary:
 
 <img src="03-decision-boundary.assets/image-20210309074320334.png" alt="image-20210309074320334" style="zoom:50%;" />
-

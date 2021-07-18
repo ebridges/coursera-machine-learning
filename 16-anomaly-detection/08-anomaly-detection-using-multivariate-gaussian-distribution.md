@@ -67,10 +67,3 @@ Even though they're fundamentally the same there are places where using one or t
 | Manually create features to capture anomalies where $x_1$, $x_2$ take unusual combinations of values. | Automatically captures correlations between features.        |
 | Computationally cheaters, scales better to large values of $n$. | Computationally more expensive.                              |
 | Works OK even if $m$ (training set size) is small            | Must have $m\gt n$ or else $\Sigma$ is non-invertible. Use only if $m$ is much greater than $n$ (e.g. $\gt 10n$) |
-
-
-
-
-
-
-

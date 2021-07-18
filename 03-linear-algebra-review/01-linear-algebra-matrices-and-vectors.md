@@ -35,14 +35,3 @@ $$
 (2) has 4 entries, so it is a 4 x 1 matrix, or a 4-dimensional vector: a vector with 4 elements.
 
 You refer to the elements of a vector by saying $v_i$ = the $i^{th}$ element of vector $v$. There are two conventions for how to index into a vector: 1-indexed vs. 0-indexed. Example: $v_3$ = 5, when 1-indexed, and $v_3$ = 7 when 0-indexed.
-
-
-
-
-
-
-
-
-
-
-

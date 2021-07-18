@@ -81,4 +81,3 @@ Given $m$ training examples & $n$ features.
 |                                           | • Slow if $n$ is very large.                              |
 
 *  If $n=100$ that's okay, but if much bigger than $n=10000$, it would be very expensive and GD should be preferred
-

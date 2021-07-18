@@ -24,4 +24,3 @@ If $n$ is small and $m$ is intermediate (e.g. $n=1-1000$, $m=10-10,000$), then u
 If $n$ is small and $m$ is large (e.g. $n=1-1000$, $m=50000+$), add more features & then use logistic regression; or, use a Support Vector Machine without a kernel as modern libraries have a huge performance issue with gaussian kernel and large training set sizes.
 
 A neural network is likely to work well for most of these settings, but may be slower to train.
-

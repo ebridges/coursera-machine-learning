@@ -30,4 +30,3 @@ There are two main options to address the issue of overfitting:
 2. Regularization
    * Keeps all the features, but reduce the magnitude/values of parameters $\theta_j$.
    * Regularization works well when we a lot of slightly useful features, each of which contributes to predicting the value of $y$.
-

@@ -19,4 +19,3 @@ Here he provides an example related to selling a house.  You may have two featur
 Our hypothesis function does not need to be linear (i.e. a straight line) if that does ot fit the data well.  We can change the behavior or _curve_ of the hypothesis function by making it a quadratic, cubic or a square root function (indeed, any other form).
 
 An important thing to note is if you choose your features this way then feature scaling becomes very important.
-

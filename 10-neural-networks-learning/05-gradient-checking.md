@@ -30,4 +30,3 @@ end;
 We previously saw how to calculate the `deltaVector`. So once we compute our `gradApprox` vector, we can check that `gradApprox` ≈ `deltaVector`. 
 
 Once you have verified **once** that your backpropagation algorithm is correct, you don't need to compute `gradApprox` again. The code to compute `gradApprox` can be very slow.
-

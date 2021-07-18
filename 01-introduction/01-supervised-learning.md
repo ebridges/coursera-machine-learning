@@ -17,4 +17,3 @@ This is also known as a “regression” problem, the goal of which is to predic
 These examples illustrate prediciting an answer given a small number of features (e.g. "tumor size", "square footage", etc.) from which we estimate an answer ("price", "benign vs malignant") using regression or classification.
 
 This course is about supervised learning, where we're given a dataset of "correct" answers and based on them be able to predict an answer.
-

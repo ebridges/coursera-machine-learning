@@ -57,4 +57,3 @@ In summary:
 3. Estimate the generalization error using the test set with $J_{test}(\Theta^{(d)})$, ($d$ = theta from polynomial with lower error).
 
 This way, the degree of the polynomial $d$ has not been trained using the test set.
-

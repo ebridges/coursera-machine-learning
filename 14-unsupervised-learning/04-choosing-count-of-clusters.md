@@ -33,16 +33,3 @@ So, if we run K-means with K equals 3 & K equals 5, we may end up with groupings
 To choose, we can think about this from the perspective of the t-shirt business and ask "Well if I have five segments, then how well will my t-shirts fit my customers and so, how many t-shirts can I sell? How happy will my customers be?"  We would choose based on what makes the most sense from the perspective of the t-shirt business, in terms of whether we want to have more t-shirt sizes so that the shirts fit my customers better or do I want to have fewer sizes so that I make fewer sizes of t-shirts, and be able to sell them more cheaply to customers.
 
 In this case, the t-shirt business would give you an evaluation metric you can use to decide how many clusters to rely on.
-
-
-
-
-
-
-
-
-
-
-
-
-

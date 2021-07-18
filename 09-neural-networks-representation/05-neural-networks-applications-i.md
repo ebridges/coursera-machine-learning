@@ -60,4 +60,3 @@ $$
 \begin{matrix}x_{1}&x_{2}&h_{\Theta }(x)\\ 0&0&g(-10)\approx 0\\ 0&1&g(10)\approx 1\\ 1&0&g(10)\approx 1 \\ 1&1&g(30)\approx 1 \end{matrix}
 $$
 This illustrates how a single neuron in a network can be used to calculate logical functions.  Next, continuing in following examples we will show how using multiple layers can be used to calculate more complex logical functions such as XOR.
-

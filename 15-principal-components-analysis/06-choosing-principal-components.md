@@ -43,8 +43,3 @@ $$
 1-\frac{\sum^{k}_{i=1}S_{ii}}{\sum^{n}_{i=1}S_{ii}}\le0.01
 $$
 This represents the ratio of the first $k$ elements of $S$ to the sum of all of the elements of $S$ and checking that it's less than 0.01.  When working this way, we only have to call `svd` one time, and then just loop over the values of $S$ to find $k$.
-
-
-
-
-

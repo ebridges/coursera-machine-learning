@@ -29,4 +29,3 @@ Where $u_{reduce}$ is an $n\times k$ vector and $z$ is a $k\times1$ vector resul
 The approximated reconstruction of the original data then looks like this when plotted:
 
 <img src="05-reconstruction-from-compressed-representation.assets/image-20210602053152766.png" alt="image-20210602053152766" style="zoom:50%;" />
-

@@ -15,20 +15,3 @@ As you could imagine, k-means could end up with different solutions.  Indeed it 
 If we want to ensure that k-means arrives at the best optima, we can run it multiple times, say anywhere from 50-1000 times. From these we pick the clustering that gives us the lowest cost, or _distortion_.  
 
 If you're running it for a small number of clusters (K=2-10) then this could be effective.  As K gets larger than you'll typically get a good result with fewer iterations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

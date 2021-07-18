@@ -56,4 +56,3 @@ Having a high recall is a good thing.
 #### Convention
 
 We normally set $y=1$ for the rare case.
-

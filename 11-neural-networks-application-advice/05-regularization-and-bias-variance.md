@@ -52,4 +52,3 @@ How well does my hypothesis do on the training set and the CV set as we vary the
   For small values of lambda you end up underfitting & $J_{cv}$ will be high.  For higher values bias will increase.
 
 <img src="05-regularization-and-bias-variance.assets/image-20210507074020468.png" alt="image-20210507074020468" style="zoom:50%;" />
-

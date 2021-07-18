@@ -29,4 +29,3 @@ $$
 Where $\theta^{(j)}$ and $x^{(i)}$ are the parameters we've learned from the mean normalized dataset.  But, because we've subracted out the means to normalize the dataset, we'd add back that adjusting factor.
 
 So, in effect, for a new user we will be predicting the average rating for what each movie received.
-

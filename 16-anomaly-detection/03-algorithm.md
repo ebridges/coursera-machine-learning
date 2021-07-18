@@ -58,4 +58,3 @@ What this 3D surface plot is saying is that all the points that are far above th
 ![image-20210603175415715](03-algorithm.assets/image-20210603175415715.png)
 
 ![image-20210603175715090](03-algorithm.assets/image-20210603175715090.png)
-

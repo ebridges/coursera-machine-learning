@@ -21,4 +21,3 @@ Repeat `{`
 }
 
 The downside of MbGD is the need to choose a value for the parameter $b$.
-

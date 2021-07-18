@@ -27,8 +27,3 @@ While this seems like a complex problem it can be done with one line of code:
 While not easy, when you use the right programming environment, many learning algorithms can be really short programs.
 
 E.g. `svd` function stands for singular value decomposition.  This is a linear algegra routine that is built into Octave.  In C++ or Java this would be many complex lines of code.
-
-
-
-
-

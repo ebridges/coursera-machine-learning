@@ -61,12 +61,3 @@ Example:
 Let's say we want to assign these data points to S, M, and L clusters:
 
 <img src="01-kmeans-algorithm.assets/image-20210527143246231.png" alt="image-20210527143246231" style="zoom:67%;" />
-
-
-
-
-
-
-
-
-

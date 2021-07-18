@@ -22,4 +22,3 @@ At the same time, the cross validation error will tend to **decrease** as we inc
 This summarized in the figure below:
 
 ![img](04-bias-vs-variance.assets/I4dRkz_pEeeHpAqQsW8qwg_bed7efdd48c13e8f75624c817fb39684_fixed.png)
-
