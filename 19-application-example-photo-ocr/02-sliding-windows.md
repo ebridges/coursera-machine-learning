@@ -4,7 +4,7 @@ Video: machine-learning/18_application-example-photo-ocr/01_photo-ocr/02_sliding
 
 ## Sliding Windows
 
-The first step in the pipline is text detection, where we look at an image and decide whether a specific region may have text in it.  A complicating factor in this is that the regions may be of largely varying sizes and aspect ratios.
+The first step in the pipeline is text detection, where we look at an image and decide whether a specific region may have text in it.  A complicating factor in this is that the regions may be of largely varying sizes and aspect ratios.
 
 ### Recognizing Pedestrians
 
