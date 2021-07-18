@@ -1,6 +1,5 @@
 ---
 Video: machine-learning/06_logistic-regression/01_classification-and-representation/05_decision-boundary.mp4
-
 ---
 
 ## Decision Boundary

@@ -1,6 +1,5 @@
 ---
 Video: machine-learning/08_neural-networks-representation/01_motivations/02_neurons-and-the-brain.mp4
-
 ---
 
 ## Motivations: Neurons & the Brain

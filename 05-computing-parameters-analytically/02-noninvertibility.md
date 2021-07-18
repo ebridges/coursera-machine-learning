@@ -1,6 +1,5 @@
 ---
 Video: mmachine-learning/04_linear-regression-with-multiple-variables/03_computing-parameters-analytically/03_normal-equation-noninvertibility.mp4
-
 ---
 
 ## Noninvertibility

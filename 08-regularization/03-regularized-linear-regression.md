@@ -1,6 +1,5 @@
 ---
 Video: machine-learning/07_regularization/01_solving-the-problem-of-overfitting/05_regularized-linear-regression.mp4
-
 ---
 
 ## Regularization: Linear Regression

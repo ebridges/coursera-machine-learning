@@ -1,6 +1,5 @@
 ---
 Video: machine-learning/08_neural-networks-representation/03_applications/03_examples-and-intuitions-ii.mp4
-
 ---
 
 ## Examples and Intuitions II

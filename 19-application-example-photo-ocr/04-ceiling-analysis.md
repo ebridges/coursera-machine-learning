@@ -23,8 +23,6 @@ E & F & G --> H(Logistic regression)
 H --> I[Label]
 ```
 
-
-
 Let's assume that the accuracy of the overall system is 85% and we want to improve it.  
 
 We may start by manually introducing images whose backgrounds have already been removed, thus making the preprocess step have an accuracy of 100%, and see how it impacts the overall accuracy.  Suppose that doing this improves accuracy to only 85.1%, we can then imply that further improvements to the preprocess step is not worth the time.

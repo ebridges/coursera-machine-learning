@@ -1,7 +1,5 @@
 ---
 Video: machine-learning/08_neural-networks-representation/03_applications/05_multiclass-classification.mp4
-
-
 ---
 
 ## Multiclass Classification

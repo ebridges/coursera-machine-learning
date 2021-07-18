@@ -1,7 +1,5 @@
 ---
 Video: machine-learning/06_logistic-regression/02_logistic-regression-model/01_cost-function.mp4
-
-
 ---
 
 ## Cost Function
