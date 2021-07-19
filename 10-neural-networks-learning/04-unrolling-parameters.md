@@ -5,10 +5,12 @@ Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practi
 ## Implementation Note: Unrolling Parameters
 
 With neural networks, we are working with sets of matrices:
+
 $$
 \Theta^{(1)}, \Theta^{(2)}, \Theta^{(3)}, ...\\
 D^{(1)}, D^{(2)}, D^{(3)}, ...
 $$
+
 And, in order to use optimizing functions such as `fminunc()`, we will want to "unroll" the elements of these matrices and put them in one long vector:
 
 ```octave

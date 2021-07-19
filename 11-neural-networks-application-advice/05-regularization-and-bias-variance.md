@@ -5,13 +5,17 @@ Video: machine-learning/10_advice-for-applying-machine-learning/02_bias-vs-varia
 ## Regularization and Bias/Variance
 
 Suppose we're fitting a higher-order polynomial such as:
+
 $$
 h_\theta(x)=\theta_0+\theta_1x+\theta_2x^2+\theta_3x^3+\theta_4x^4
 $$
+
 And, to prevent overfitting we're using a regularization term in the cost function to keep the values of the parameters small:
+
 $$
 J(\theta)=\frac{1}{2m}\sum^m_{i=1}(h_\theta(x^{(i)})-y^{(i)})^2+\frac{\lambda }{2m} \sum^{n}_{j=1} \Theta^{2}_{j}
 $$
+
 The regularization term is: $\frac{\lambda }{2m} \sum^{n}_{j=1} \Theta^{2}_{j}$.
 
 Let's consider three cases related to the value of $\lambda$ in the regularization term, and it's effect on the cost:

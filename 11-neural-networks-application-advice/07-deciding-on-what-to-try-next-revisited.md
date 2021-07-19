@@ -30,8 +30,6 @@ Our decision process can be broken down as follows:
 +------------------------------+-----------------------------------+
 ```
 
-
-
 ### Diagnosing Neural Networks
 
 <img src="07-deciding-on-what-to-try-next-revisited.assets/image-20210509082416635.png" alt="image-20210509082416635" style="zoom:50%;" />

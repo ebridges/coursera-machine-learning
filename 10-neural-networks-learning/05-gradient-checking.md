@@ -7,13 +7,17 @@ Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practi
 Forward- and back-propagation can be very tricky to implement properly, and bugs can get introduced that are very hard to detect or track down.
 
 Gradient checking will assure that our backpropagation works as intended. We can approximate the derivative of our cost function with:
+
 $$
 \frac{\partial}{\partial\Theta}J(\Theta)\approx\frac{J(\Theta+\epsilon)-J(\Theta-\epsilon)}{2\epsilon}
 $$
+
 With multiple theta matrices, we can approximate the derivative **with respect to** $\Theta_j$ as follows:
+
 $$
 \frac{\partial}{\partial\Theta_j}J(\Theta)\approx\frac{J(\Theta_1,...\Theta_j+\epsilon,...,\Theta_n)-J(\Theta_1,...,\Theta_j-\epsilon,...,\Theta_n)}{2\epsilon}
 $$
+
 A small value for $\epsilon$ (epsilon) such as $\epsilon=10^{-4}$, guarantees that the math works out properly. If the value for $\epsilon$ is too small, we can end up with numerical problems. 
 
 ```octave
