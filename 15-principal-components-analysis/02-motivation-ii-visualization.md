@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/01_motivation/02_motivation-ii-visualization.mp4
----
-
-### Motivation II: Visualization
+### Motivation II: Visualization [^72]
 
 Another application of data compression is to enable a way of visualizing the data better, and open up ways of better understanding the data.
 

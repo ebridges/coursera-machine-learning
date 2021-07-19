@@ -1,8 +1,4 @@
----
-Video: 07_regularization/01_solving-the-problem-of-overfitting/01_the-problem-of-overfitting.mp4
----
-
-## The Problem of Overfitting
+## The Problem of Overfitting [^31]
 
 Consider a case where a linear hypothesis function does not fit the data very well (known as "underfitting").  If the data doesn't really lie on a straight line, a linear function will not be very good at predicting $y$ because the data lies outside the function much of the time.
 

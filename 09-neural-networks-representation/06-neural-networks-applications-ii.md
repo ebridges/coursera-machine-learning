@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/03_applications/03_examples-and-intuitions-ii.mp4
----
-
-## Examples and Intuitions II
+## Examples and Intuitions II [^40]
 
 From these $\Theta^{(1)}$ matrices for AND, NOR, and OR:
 $$

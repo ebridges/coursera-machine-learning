@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/02_principal-component-analysis/02_principal-component-analysis-algorithm.mp4
----
-
-## Principal Component Analysis Algorithm
+## Principal Component Analysis Algorithm [^74]
 
 ### Preprocessing
 

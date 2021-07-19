@@ -1,8 +1,4 @@
----
-Video: machine-learning/02_linear-regression-with-one-variable/01_model-and-cost-function/05_cost-function-intuition-i.mp4
----
-
-## Cost Function Intuition
+## Cost Function Intuition [^5]
 
 ### Recap of Cost Functions
 

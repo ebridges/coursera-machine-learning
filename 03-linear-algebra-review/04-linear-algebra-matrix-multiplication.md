@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/07_matrix-matrix-multiplication.mp4
----
-
-## Matrix-matrix Multiplication
+## Matrix-matrix Multiplication [^13]
 
 Suppose we have two matrices that we'd like to multiply together:
 $$

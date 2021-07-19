@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/02_kernels/01_kernels-i.mp4
----
-
-## Kernels - I
+## Kernels - I [^64]
 
 Adapting support vector machines in order to develop complex nonlinear classifiers.
 

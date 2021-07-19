@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/01_classification-and-representation/01_classification.mp4
----
-
-## Classification
+## Classification [^23]
 
 Classification is predicting what bucket a given answer should fall in, as opposed to a range of values. For example: is this email message spam or not? In all of these problems we are trying to predict is $y$ which is taking on a value of $0$ or $1$, the "negative" or "positive" classes:
 $$

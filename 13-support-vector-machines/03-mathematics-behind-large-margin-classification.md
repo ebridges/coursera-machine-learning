@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/01_large-margin-classification/03_mathematics-behind-large-margin-classification.mp4
----
-
-### Mathematics Behind Large Margin Classification
+### Mathematics Behind Large Margin Classification [^63]
 
 #### Background: Vector Inner Product
 

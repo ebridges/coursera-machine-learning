@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/02_neural-networks/01_model-representation-i.mp4
----
-
-## Neural Networks: Model Representation I
+## Neural Networks: Model Representation I [^37]
 
 At a very simple level a neuron is basically a computational unit that takes inputs from "dendrites" as electrical "spikes" which are channeled to outputs known as "axons."  Dendrites in our model are input features $x_1…x_n$ and the output is the result of our hypothesis function.  You can think of our logistic unit like this:
 

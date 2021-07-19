@@ -1,8 +1,4 @@
----
-Video: machine-learning/11_machine-learning-system-design/02_handling-skewed-data/02_trading-off-precision-and-recall.mp4
----
-
-## Precision & Recall Tradeoffs
+## Precision & Recall Tradeoffs [^59]
 
 When using Precision & Recall as an evaluation metric for classification problems with skewed constants, for many applications we will want to somehow control the trade-off between them.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/01_density-estimation/01_problem-motivation.mp4
----
-
-## Density Estimation
+## Density Estimation [^78]
 
 ### Problem & Motivation
 

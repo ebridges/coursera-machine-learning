@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/03_applying-pca/01_reconstruction-from-compressed-representation.mp4
----
-
-## Applying Principal Component Analysis
+## Applying Principal Component Analysis [^75]
 
 ### Reconstruction from Compressed Representation
 

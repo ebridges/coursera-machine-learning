@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/01_evaluating-a-learning-algorithm/01_deciding-what-to-try-next.mp4
----
-
-## Deciding on What to Try Next
+## Deciding on What to Try Next [^49]
 
 There's often a huge difference between someone that really knows how to powerfully and effectively apply a learning algorithm, versus someone who doesn't really understand them and can end up wasting a lot of their time trying things out that don't make sense.
 

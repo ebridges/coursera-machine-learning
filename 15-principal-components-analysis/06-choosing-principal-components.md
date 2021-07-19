@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/03_applying-pca/02_choosing-the-number-of-principal-components.mp4
----
-
-### Choosing the Number of Principal Components
+### Choosing the Number of Principal Components [^76]
 
 When using the principal components algorithm we take $n$ dimensional features and reduce them to a representation of the features in $k$ dimensions.  This number $k$ is a parameter so of the algorithm, also known as the number of principal components that we've retained. What are some guidelines for choosing this number?
 

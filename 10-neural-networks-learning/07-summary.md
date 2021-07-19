@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practice/07_putting-it-together.mp4
----
-
-##  Summary
+##  Summary [^48]
 
 Putting all the pieces together from the previous lessons.
 

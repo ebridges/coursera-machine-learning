@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/02_multivariate-linear-regression/03_gradient-descent-for-multiple-variables.mp4
----
-
-## Gradient Descent for Multiple Variables
+## Gradient Descent for Multiple Variables [^17]
 
 **Hypothesis**: $h_\theta(x) = \theta^{T}x = \theta_0x_0 + \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + ... + \theta_nx_n$
 

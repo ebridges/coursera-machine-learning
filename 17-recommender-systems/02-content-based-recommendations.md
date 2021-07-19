@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/01_predicting-movie-ratings/02_content-based-recommendations.mp4
----
-
-### Content Based Recommendations
+### Content Based Recommendations [^87]
 
 A first approach to predicting a movie that has not yet been rated yet is known as _content based recommendations_.  These are known as content-based because we assume that we have available to us features for the different movies, where features that capture what is the content of these movies, of how romantic is this movie, how much action is in this movie. And we're really using features of a content of the movies to make our predictions.
 

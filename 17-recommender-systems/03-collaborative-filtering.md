@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/02_collaborative-filtering/01_collaborative-filtering.mp4
----
-
-## Collaborative Filtering
+## Collaborative Filtering [^88]
 
 This is an approach to building a recommender system which has an interesting property known as "feature learning" that can start to learn for itself what features to use.
 

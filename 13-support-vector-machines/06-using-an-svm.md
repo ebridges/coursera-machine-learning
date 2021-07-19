@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/03_svms-in-practice/01_using-an-svm.mp4
----
-
-## Using a Support Vector Machine
+## Using a Support Vector Machine [^66]
 
 It is not recommended to use your own code to solve for the parameters $\theta$, rather you should use a library as this software is very complex.
 

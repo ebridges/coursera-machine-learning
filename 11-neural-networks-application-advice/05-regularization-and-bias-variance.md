@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/02_bias-vs-variance/03_regularization-and-bias-variance.mp4
----
-
-## Regularization and Bias/Variance
+## Regularization and Bias/Variance [^53]
 
 Suppose we're fitting a higher-order polynomial such as:
 

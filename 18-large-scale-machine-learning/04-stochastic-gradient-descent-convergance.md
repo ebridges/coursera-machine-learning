@@ -1,8 +1,4 @@
----
-Video: machine-learning/17_large-scale-machine-learning/01_gradient-descent-with-large-datasets/04_stochastic-gradient-descent-convergence.mp4
----
-
-## Stochastic Gradient Descent Convergence
+## Stochastic Gradient Descent Convergence [^95]
 
 When using batch gradient descent we would check on every iteration to confirm that we were making progress in gradient descent by confirming that we were converging on the global minimum.  We would do this by plotting $J_{train}(\theta)$ as a function of the number of iterations of gradient descent.  To do this we'd calculate the following on every iteration:
 $$

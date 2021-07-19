@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/02_building-an-anomaly-detection-system/02_anomaly-detection-vs-supervised-learning.mp4
----
-
-## Anomaly Detection vs. Supervised Learning
+## Anomaly Detection vs. Supervised Learning [^82]
 
 In the process of evaluating an anomaly detection algorithm, we introduced labeled data to help do the evaluation.  This raises the question that, if we've got labeled data to help train our algorithm why not just use supervised learning (e.g. a neural network or logistic regression) to predict whether $y=0$ or $y=1$?
 

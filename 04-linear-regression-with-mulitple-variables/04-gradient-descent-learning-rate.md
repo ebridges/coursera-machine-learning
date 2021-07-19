@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/02_multivariate-linear-regression/07_gradient-descent-in-practice-ii-learning-rate.mp4
----
-
-## Gradient Descent in Practice: Learning Rate
+## Gradient Descent in Practice: Learning Rate [^19]
 
 Given the gradient descent rule $\theta_{j} :=\theta_{j} -\alpha \frac{\partial }{\partial \theta_{j} } J(\theta )$ this lesson provides the following:
 

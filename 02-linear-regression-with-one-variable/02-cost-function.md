@@ -1,8 +1,4 @@
----
-Video: machine-learning/02_linear-regression-with-one-variable/01_model-and-cost-function/03_cost-function.mp4
----
-
-## Cost Function
+## Cost Function [^4]
 
 We can measure the accuracy of our hypothesis function by using a **cost function**  This takes an "average" difference of all the results of the hypothesis with inputs from $x$'s and the actual output $y$'s — the difference between the predicted and the actual values.
 

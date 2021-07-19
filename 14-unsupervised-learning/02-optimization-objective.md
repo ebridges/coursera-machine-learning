@@ -1,8 +1,4 @@
----
-Video: machine-learning/13_unsupervised-learning/01_clustering/03_optimization-objective.mp4
----
-
-## Clustering: Optimization Objective
+## Clustering: Optimization Objective [^68]
 
 Supervised learning algorithms like linear regression, logistic regression, etc have an opimization objective, or some cost function that the algorithm was trying to minimize. K-means also has an optimization objective, or cost function, that it's trying to minimize.
 

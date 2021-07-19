@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/02_bias-vs-variance/07_deciding-what-to-do-next-revisited.mp4
----
-
-## Deciding on What to Try Next: Revisited
+## Deciding on What to Try Next: Revisited [^55]
 
  
 

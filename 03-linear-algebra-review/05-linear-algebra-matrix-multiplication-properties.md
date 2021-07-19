@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/09_matrix-multiplication-properties.mp4
----
-
-## Matrix Multiplication Properties
+## Matrix Multiplication Properties [^15]
 
 Using matrix multiplication is very useful for packing a lot of computation into just one matrix multiplication operation.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/02_linear-regression-with-one-variable/02_parameter-learning/03_gradient-descent-intuition.mp4
----
-
-## Gradient Descent Algorithm
+## Gradient Descent Algorithm [^8]
 
 $$
 \theta_{j} :=\theta_{j} -\alpha \frac{\partial }{\partial \theta_{j} } J(\theta_{0} ,\theta_{1} )\  \  (for\  j=0\  and\  j=1)

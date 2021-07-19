@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/01_cost-function-and-backpropagation/05_backpropagation-intuition.mp4
----
-
-## Backpropagation Intuition
+## Backpropagation Intuition [^44]
 
 On first impression, this is a really complicated algorithm. It’s a less mathematically simple approach than, say, linear regression.
 

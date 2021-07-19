@@ -1,8 +1,4 @@
----
-Video: machine-learning/07_regularization/01_solving-the-problem-of-overfitting/03_cost-function.mp4
----
-
-## Regularization Intuition & Cost Function
+## Regularization Intuition & Cost Function [^32]
 
 If we have smaller values for the parameters, we end up with a simpler hypothesis, and are less prone to overfitting. In other words, if we find that we have overfit the model from our hypothesis function, we can minimize the weight of some of the terms in our function by increasing their cost.
 

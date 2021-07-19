@@ -1,8 +1,4 @@
----
-Video: machine-learning/01_introduction/02_introduction/05_supervised-learning.mp4
----
-
-## Supervised Learning
+## Supervised Learning [^1]
 
 Given a dataset for housing prices, where the price is given as a function of the size in sq. feet of the house, you can sketch a straight line through the data as a way to predict prices for square footage that is not directly indicated by the sample data.
 

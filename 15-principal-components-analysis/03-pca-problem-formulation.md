@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/02_principal-component-analysis/01_principal-component-analysis-problem-formulation.mp4
----
-
-## Problem Formulation
+## Problem Formulation [^73]
 
 For the problem of dimensionality reduction, by far the most commonly used algorithm is something called *principal components analysis*, or PCA.
 

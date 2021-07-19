@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/03_low-rank-matrix-factorization/02_implementational-detail-mean-normalization.mp4
----
-
-### Mean Normalization
+### Mean Normalization [^91]
 
 Take into consideration the case where we have a user who has not rated any movies.  The  parameters $\theta$ will end up being a matrix of zeroes as this user has not rated anything for us to associate any features with. Because they will not have any movies to suggest, then we won't also have any to recommend as well.
 

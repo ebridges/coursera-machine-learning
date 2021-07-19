@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/01_evaluating-a-learning-algorithm/02_evaluating-a-hypothesis.mp4
----
-
-## Evaluating an Hypothesis
+## Evaluating an Hypothesis [^50]
 
 A hypothesis may have a low error for the training examples but still be inaccurate (because of overfitting). Thus, to evaluate a hypothesis, given a dataset of training examples, we can split up the data into two sets: a **training set** and a **test set**. Typically, the training set consists of 70 % of your data and the test set is the remaining 30 %.
 

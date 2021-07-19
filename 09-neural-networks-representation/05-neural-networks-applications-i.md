@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/03_applications/01_examples-and-intuitions-i.mp4
----
-
-## Examples and Intuitions I
+## Examples and Intuitions I [^39]
 
 ### Non-linear Classification Example: XOR/XNOR
 

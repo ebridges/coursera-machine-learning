@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/02_multivariate-linear-regression/05_gradient-descent-in-practice-i-feature-scaling.mp4
----
-
-## Gradient Descent in Practice: Feature Scaling
+## Gradient Descent in Practice: Feature Scaling [^18]
 
 We can speed up gradient descent by having each of our input values in roughly the same range. This is because $\theta$ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.
 

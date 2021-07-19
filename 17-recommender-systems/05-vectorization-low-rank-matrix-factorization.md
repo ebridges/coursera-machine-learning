@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/03_low-rank-matrix-factorization/01_vectorization-low-rank-matrix-factorization.mp4
----
-
-## Low Rank Matrix Factorization
+## Low Rank Matrix Factorization [^90]
 
 ### Vectorization of the Collaborative Filtering Algorithm
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/02_logistic-regression-model/05_advanced-optimization.mp4
----
-
-## Advanced Optimization
+## Advanced Optimization [^29]
 
 Techniques more sophisticated than gradient descent for optimizing $\theta$ are "Conjugate Gradient", "BFGS", and "L-BFGS" all of which work faster than GD.  Octave provides these algorithms.
 

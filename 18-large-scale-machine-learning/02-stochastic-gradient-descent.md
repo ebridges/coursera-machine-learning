@@ -1,8 +1,4 @@
----
-Video: machine-learning/17_large-scale-machine-learning/01_gradient-descent-with-large-datasets/02_stochastic-gradient-descent.mp4
----
-
-## Stochastic Gradient Descent
+## Stochastic Gradient Descent [^93]
 
 For many learning algorithms (e.g. linear or logistic regression, neural networks), the way we derive the algorithm is to come up with a cost function (or optimization objective) and then using an algorithm like gradient descent to minimize the cost function.
 

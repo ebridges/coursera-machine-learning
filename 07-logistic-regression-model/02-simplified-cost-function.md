@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/02_logistic-regression-model/03_simplified-cost-function-and-gradient-descent.mp4
----
-
-## Simplified Cost Function
+## Simplified Cost Function [^27]
 
 We can simplify our cost function's two conditions into one case:
 $$

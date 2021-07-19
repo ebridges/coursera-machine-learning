@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/03_multivariate-gaussian-distribution-optional/02_anomaly-detection-using-the-multivariate-gaussian-distribution.mp4
----
-
-## Anomaly Detection using the Multivariate Gaussian Distribution
+## Anomaly Detection using the Multivariate Gaussian Distribution [^85]
 
 The multivariate normal distribution formula is paramterized by $\mu$ and $\Sigma$, whose formula is:
 $$

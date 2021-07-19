@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/02_neural-networks/01_model-representation-ii.mp4
----
-
-## Neural Networks: Model Representation II
+## Neural Networks: Model Representation II [^38]
 
 Now that we've reviewed what the computation is for a neural network, in this section we will discuss how to conduct that computation efficiently and how they can help us solve non-linear propblems.
 

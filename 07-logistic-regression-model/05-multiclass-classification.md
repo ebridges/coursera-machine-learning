@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/03_multiclass-classification/01_multiclass-classification-one-vs-all.mp4
----
-
-## Multiclass Classification
+## Multiclass Classification [^30]
 
 Multiclass Classification: Automatically tagging emails into different categories. So instead of $y=\{0, 1\}$ we expand the definition to $y=\{0, 1,…n\}$.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/01_classification-and-representation/03_hypothesis-representation.mp4
----
-
-## Hypothesis Representation
+## Hypothesis Representation [^24]
 
 When dealing with classification problems where $y\in{0,1}$ we want our hypothesis function $h_\theta(0)$ to satisfy $0\leq h_\theta(0)\leq1$. This is accomplished by plugging $\theta^T$ into the "Logistic Function" or "Sigmoid Function".  
 

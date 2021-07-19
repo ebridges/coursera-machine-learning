@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/01_large-margin-classification/01_optimization-objective.mp4
----
-
-## Large Margin Classification
+## Large Margin Classification [^61]
 
 ### Optimization Objective
 

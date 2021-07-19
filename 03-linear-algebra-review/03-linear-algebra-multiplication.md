@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/05_matrix-vector-multiplication.mp4
----
-
-## Matrix-vector Multiplication
+## Matrix-vector Multiplication [^12]
 
 Start with a special case to multiply a matrix with a vector:
 $$

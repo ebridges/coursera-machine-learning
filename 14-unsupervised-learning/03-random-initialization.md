@@ -1,8 +1,4 @@
----
-Video: machine-learning/13_unsupervised-learning/01_clustering/04_random-initialization.mp4
----
-
-## Random Initialization of Cluster Centroids
+## Random Initialization of Cluster Centroids [^69]
 
 How do we randomly initialize the K cluster centroids before beginning execution of the k-means algorithm?
 

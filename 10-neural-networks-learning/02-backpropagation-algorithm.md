@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/01_cost-function-and-backpropagation/03_backpropagation-algorithm.mp4
----
-
-## Backpropagation Algorithm
+## Backpropagation Algorithm [^43]
 
 “Backpropagation” is neural-network terminology for minimizing our cost function, just like what we were doing with gradient descent in logistic and linear regression. Our goal is to find parameters $\Theta$ to try and minimize $J(\Theta)$:
 $$

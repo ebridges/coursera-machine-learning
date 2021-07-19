@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/02_collaborative-filtering/02_collaborative-filtering-algorithm.mp4
----
-
-### Collaborative Filtering Algorithm
+### Collaborative Filtering Algorithm [^89]
 
 To restate the optimization objectives from the previous two sections:
 

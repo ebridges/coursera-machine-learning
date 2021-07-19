@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/01_evaluating-a-learning-algorithm/04_model-selection-and-train-validation-test-sets.mp4
----
-
-## Model Selection
+## Model Selection [^51]
 
 Suppose you'd like to decide what degree of polynomial to use to fit a data set, or what features to use, or you'd like to choose the regularlization parameter lambda for a learning algorithm?
 

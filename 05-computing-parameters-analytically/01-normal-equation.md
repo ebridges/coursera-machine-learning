@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/03_computing-parameters-analytically/01_normal-equation.mp4
----
-
-## Normal Equation
+## Normal Equation [^21]
 
 The normal equation, for some linear regression problems, will give a better way to solve for parameters $\theta$.
 

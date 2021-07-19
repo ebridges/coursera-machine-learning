@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/01_classification-and-representation/05_decision-boundary.mp4
----
-
-## Decision Boundary
+## Decision Boundary [^25]
 
 Previously we learned that our hypothesis function is defined differently for categorization problems:
 $$

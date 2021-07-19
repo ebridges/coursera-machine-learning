@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/03_multivariate-gaussian-distribution-optional/01_multivariate-gaussian-distribution.mp4
----
-
-## Multivariate Gaussian Distribution
+## Multivariate Gaussian Distribution [^84]
 
 Multivariate Gaussian Distribution is an extenstion to the anomaly detection algorithm we've learned thus far that can sometimes catch anomalies that the earlier algorithm didn't.
 

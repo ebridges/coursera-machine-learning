@@ -1,8 +1,4 @@
----
-Video: machine-learning/07_regularization/01_solving-the-problem-of-overfitting/05_regularized-linear-regression.mp4
----
-
-## Regularization: Linear Regression
+## Regularization: Linear Regression [^33]
 
 For linear regression we worked out two learning algorithms: one based on gradient descent and one based on the normal equation.  Here we take those two algorithms and generalize them to the case of regularized linear regression.
 

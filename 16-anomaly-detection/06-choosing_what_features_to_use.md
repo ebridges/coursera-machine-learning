@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/02_building-an-anomaly-detection-system/03_choosing-what-features-to-use.mp4
----
-
-## Choosing What Features to Use
+## Choosing What Features to Use [^83]
 
 When applying anomaly detection, it turns out one of the things that has a huge effect on how well it works is the choice of features that are chosen and used.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/02_linear-regression-with-one-variable/02_parameter-learning/01_gradient-descent.mp4
----
-
-# Gradient Descent
+# Gradient Descent [^7]
 
 A more general algorithm for minimizing the cost function, used elsewhere besides the cost function for linear regression.
 

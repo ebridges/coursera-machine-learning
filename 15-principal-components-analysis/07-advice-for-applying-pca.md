@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/03_applying-pca/03_advice-for-applying-pca.mp4
----
-
-## Advice for Applying PCA
+## Advice for Applying PCA [^77]
 
 ### Speeding up Runtime
 

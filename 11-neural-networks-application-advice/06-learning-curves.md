@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/02_bias-vs-variance/05_learning-curves.mp4
----
-
-## Learning Curves
+## Learning Curves [^54]
 
 Often a useful thing to plot: to sanity check the algorithm or to improve its performance.  Often used to try to diagnose if a learning algorithm has bias, or a variance problem, or both.
 

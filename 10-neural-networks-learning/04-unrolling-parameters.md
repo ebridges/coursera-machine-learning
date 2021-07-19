@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practice/01_implementation-note-unrolling-parameters.mp4
----
-
-## Implementation Note: Unrolling Parameters
+## Implementation Note: Unrolling Parameters [^45]
 
 With neural networks, we are working with sets of matrices:
 

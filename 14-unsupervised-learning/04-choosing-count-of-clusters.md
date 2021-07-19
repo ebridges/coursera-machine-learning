@@ -1,8 +1,4 @@
----
-Video: machine-learning/13_unsupervised-learning/01_clustering/05_choosing-the-number-of-clusters.mp4
----
-
-## Clustering: Choosing the Number of Clusters
+## Clustering: Choosing the Number of Clusters [^70]
 
 There is no great way to automatically choosing the number of clusters ($K$).  The most common way of choosing the number of clusters is to do so manually by looking at visualizations or by looking at the output of the clustering algorithms, etc.
 

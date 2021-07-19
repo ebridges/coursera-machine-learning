@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/02_building-an-anomaly-detection-system/01_developing-and-evaluating-an-anomaly-detection-system.mp4
----
-
-## Developing and Evaluating an Anomaly Detection System
+## Developing and Evaluating an Anomaly Detection System [^81]
 
 The process of how to go about developing a specific application of anomaly detection and how to evaluate how well it's doing at detecting anomalies.
 

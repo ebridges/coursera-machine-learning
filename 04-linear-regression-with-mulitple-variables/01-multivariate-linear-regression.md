@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/02_multivariate-linear-regression/01_multiple-features.mp4
----
-
-## Multiple Features
+## Multiple Features [^16]
 
 So far we have been trying to predict a price based on the number of square footage of the property.  What if we wanted to use multiple features besides square footage (e.g. number of bedrooms, number of floors, age of home) to predict a price?
 

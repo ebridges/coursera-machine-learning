@@ -1,8 +1,4 @@
----
-Video: machine-learning/02_linear-regression-with-one-variable/02_parameter-learning/05_gradient-descent-for-linear-regression.mp4
----
-
-## Application of Gradient Descent to Linear Regression
+## Application of Gradient Descent to Linear Regression [^9]
 
 The cost function in linear regression provides a measure for us to know how well a given hypothesis fits to a training set of observations.  The lower the result of the cost function for a given set of parameters $\theta_{0} ,\theta_{1}$, then the better the fit for the hypothesis. In order to aid us in minimizing the cost function, we will use gradient descent. 
 

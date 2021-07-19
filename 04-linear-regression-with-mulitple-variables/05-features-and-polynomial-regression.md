@@ -1,8 +1,4 @@
----
-Video: machine-learning/04_linear-regression-with-multiple-variables/02_multivariate-linear-regression/09_features-and-polynomial-regression.mp4
----
-
-## Features & Polynomial Regression
+## Features & Polynomial Regression [^20]
 
 We can improve our features and the form of our hypothesis function in a couple different ways. Later on we'll explore algorithms to automatically determine what features to use, and what kind of functions (cubed, quadratic, etc.) to apply to the data, this is just to introduce these as possibilities.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/01_density-estimation/02_gaussian-distribution.mp4
----
-
-### Gaussian Distribution
+### Gaussian Distribution [^79]
 
 Review of the Gaussian (aka "normal") distribution.
 

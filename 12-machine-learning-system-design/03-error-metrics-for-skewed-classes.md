@@ -1,8 +1,4 @@
----
-Video: machine-learning/11_machine-learning-system-design/02_handling-skewed-data/01_error-metrics-for-skewed-classes.mp4
----
-
-## Error Metrics for Skewed Classes
+## Error Metrics for Skewed Classes [^58]
 
 In the context of error evaluation and error metrics there's one case where it's particularly tricky to come up with an appropriate error metric for evaluating your learning algorithm known as "Skewed Classes."
 

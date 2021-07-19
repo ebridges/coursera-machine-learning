@@ -1,8 +1,4 @@
----
-Video: machine-learning/01_introduction/02_introduction/07_unsupervised-learning.mp4
----
-
-##  Unsupervised Learning
+##  Unsupervised Learning [^2]
 
 With supervised learning, each example is labled as either a positive or negative example (e.g. benign or malignant tumor) — we're told explicitly what is the so-called "right" answer.  In unsupervised learning, we're given data that doesn't have any labels, or otherwise no explicit indication of what is the "right" answer.  
 

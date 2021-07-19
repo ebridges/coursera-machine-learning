@@ -1,8 +1,4 @@
----
-	Video: machine-learning/06_logistic-regression/02_logistic-regression-model/03_simplified-cost-function-and-gradient-descent.mp4
----
-
-### Gradient Descent
+### Gradient Descent [^28]
 
 The general form of gradient descent is:
 $$

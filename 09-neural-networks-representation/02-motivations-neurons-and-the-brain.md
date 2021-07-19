@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/01_motivations/02_neurons-and-the-brain.mp4
----
-
-## Motivations: Neurons & the Brain
+## Motivations: Neurons & the Brain [^36]
 
 NN are an old algorithm that was originally motivated by having machines that can mimic the brain.  They were very widely used in the 80s and early 90s, but their popularity diminished in the late 90s. However they work really well for modern-day machine learning problems and have recently experienced a resurgence for that purpose.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/06_logistic-regression/02_logistic-regression-model/01_cost-function.mp4
----
-
-## Cost Function
+## Cost Function [^26]
 
 The cost function we've been using for linear regression will not work well with logistic regression because the logistic function will cause the output to be wavy, leading to many local optima.  
 

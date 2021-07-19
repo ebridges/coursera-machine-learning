@@ -1,8 +1,4 @@
----
-Video: machine-learning/13_unsupervised-learning/01_clustering/02_k-means-algorithm.mp4
----
-
-## K-Means Algorithm
+## K-Means Algorithm [^67]
 
 In the clustering problem we are given an unlabeled dataset and we would like to have an algorithm automatically group the data into coherent subsets or into clusters for us.  The *K-Means algorithm* is by far the most popular and most widely used clustering algorithm.
 

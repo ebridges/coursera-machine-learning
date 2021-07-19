@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practice/03_gradient-checking.mp4
----
-
-## Gradient Checking
+## Gradient Checking [^46]
 
 Forward- and back-propagation can be very tricky to implement properly, and bugs can get introduced that are very hard to detect or track down.
 

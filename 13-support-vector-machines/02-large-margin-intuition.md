@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/01_large-margin-classification/02_large-margin-intuition.mp4
----
-
-### Large Margin Intuition
+### Large Margin Intuition [^62]
 
 Sometimes people refer to SVMs as "Large Margin Classifiers."  By showing us what this means, we can also get a better picture of what an SVM hypothesis may look like.
 

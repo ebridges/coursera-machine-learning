@@ -1,8 +1,4 @@
----
-Video: machine-learning/17_large-scale-machine-learning/01_gradient-descent-with-large-datasets/01_learning-with-large-datasets.mp4
----
-
-## Learning with Large Datasets
+## Learning with Large Datasets [^92]
 
 Why use large datasets?  We've seen that we get a high performance ML system if we take a low bias algorithm and train it with a lot of data.  For example, if we need to classify between confusable words (e.g. then, than), if we train with a lot of data it appears to work very well.
 

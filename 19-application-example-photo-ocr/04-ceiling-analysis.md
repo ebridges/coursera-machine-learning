@@ -1,8 +1,4 @@
----
-Video: machine-learning/18_application-example-photo-ocr/01_photo-ocr/04_ceiling-analysis-what-part-of-the-pipeline-to-work-on-next.mp4
----
-
-## Ceiling Analysis: What Part of the Pipeline to Work on Next
+## Ceiling Analysis: What Part of the Pipeline to Work on Next [^99]
 
 We want to be sure that when investing time in working on the different steps of the pipeline that we're spending time in the places where that work will have the most impact.
 

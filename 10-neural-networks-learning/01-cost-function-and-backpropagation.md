@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/01_cost-function-and-backpropagation/01_cost-function.mp4
----
-
-## Cost Function & Backpropagation
+## Cost Function & Backpropagation [^42]
 
 Given the following neural network:
 

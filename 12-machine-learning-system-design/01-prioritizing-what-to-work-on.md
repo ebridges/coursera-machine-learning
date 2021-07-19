@@ -1,8 +1,4 @@
----
-Video: machine-learning/11_machine-learning-system-design/01_building-a-spam-classifier/01_prioritizing-what-to-work-on.mp4
----
-
-## Prioritizing What to Work On
+## Prioritizing What to Work On [^56]
 
 In order to illustrate how to organize the work that needs to be done, let's look at what's involved in building a spam classifier for email.
 

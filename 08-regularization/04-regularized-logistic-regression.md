@@ -1,8 +1,4 @@
----
-Video: machine-learning/07_regularization/01_solving-the-problem-of-overfitting/07_regularized-logistic-regression.mp4
----
-
-## Regularization: Logistic Regression
+## Regularization: Logistic Regression [^34]
 
 As with linear regression, we can regularize logistic regression in order to avoid overfitting.
 

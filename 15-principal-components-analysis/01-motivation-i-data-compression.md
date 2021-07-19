@@ -1,8 +1,4 @@
----
-Video: machine-learning/14_dimensionality-reduction/01_motivation/01_motivation-i-data-compression.mp4
----
-
-## Dimensionality Reduction
+## Dimensionality Reduction [^71]
 
 ### Motivation I: Data Compression
 

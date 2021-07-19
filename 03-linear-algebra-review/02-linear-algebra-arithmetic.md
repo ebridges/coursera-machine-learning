@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/03_addition-and-scalar-multiplication.mp4
----
-
-## Addition and Scalar multiplication
+## Addition and Scalar multiplication [^11]
 
 ### Addition
 

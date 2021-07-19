@@ -1,8 +1,4 @@
----
-Video: machine-learning/15_anomaly-detection/01_density-estimation/03_algorithm.mp4
----
-
-## Anomaly Detection Algorithm
+## Anomaly Detection Algorithm [^80]
 
 Given what we know of the Gaussian distribution, let's apply that to develop an anomaly detection algorithm.
 

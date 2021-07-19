@@ -1,8 +1,4 @@
----
-Video: machine-learning/18_application-example-photo-ocr/01_photo-ocr/01_problem-description-and-pipeline.mp4
----
-
-## Problem Description
+## Problem Description [^96]
 
 Photo OCR: photo optical character recognition.  This problem focuses the computer to understand the textual content of photos.  While doing OCR on scanned documents is fairly straightforward, doing so with images is still a very challenging problem.
 

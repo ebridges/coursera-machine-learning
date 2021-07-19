@@ -1,8 +1,4 @@
----
-Video: machine-learning/09_neural-networks-learning/02_backpropagation-in-practice/05_random-initialization.mp4
----
-
-## Random Initialization
+## Random Initialization [^47]
 
 Initializing all theta weights to zero does not work with neural networks. When we backpropagate, all nodes will update to the same value repeatedly.
 

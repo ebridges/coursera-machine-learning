@@ -1,8 +1,4 @@
----
-Video: machine-learning/10_advice-for-applying-machine-learning/02_bias-vs-variance/01_diagnosing-bias-vs-variance.mp4
----
-
-## Diagnosing Bias vs. Variance
+## Diagnosing Bias vs. Variance [^52]
 
 In this section we examine the relationship between the degree of the polynomial $d$ and the underfitting or overfitting of our hypothesis.
 

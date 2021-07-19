@@ -1,8 +1,4 @@
----
-Video: machine-learning/18_application-example-photo-ocr/01_photo-ocr/03_getting-lots-of-data-and-artificial-data.mp4
----
-
-## Getting Lots of Data: Artificial Data Synthesis
+## Getting Lots of Data: Artificial Data Synthesis [^98]
 
 When recognizing characters, in order to improve the data set that we traing the classifier on, we can generate a lot of additional data by applying distortion effects or different fonts to existing textual data.
 

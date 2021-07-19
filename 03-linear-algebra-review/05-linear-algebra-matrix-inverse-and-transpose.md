@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/11_inverse-and-transpose.mp4
----
-
-## Matrix Inverse & Transpose
+## Matrix Inverse & Transpose [^14]
 
 ### Inverse
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/17_large-scale-machine-learning/01_gradient-descent-with-large-datasets/03_mini-batch-gradient-descent.mp4
----
-
-## Mini-batch Gradient Descent
+## Mini-batch Gradient Descent [^94]
 
 Batch gradient descent: use all $m$ examples in each iteration.
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/11_machine-learning-system-design/01_building-a-spam-classifier/03_error-analysis.mp4
----
-
-## Error Analysis
+## Error Analysis [^57]
 
 The recommended approach to solving machine learning problems is to:
 

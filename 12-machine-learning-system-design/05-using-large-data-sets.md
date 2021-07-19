@@ -1,8 +1,4 @@
----
-Video: machine-learning/11_machine-learning-system-design/03_using-large-data-sets/01_data-for-machine-learning.mp4
----
-
-## Using Large Data Sets
+## Using Large Data Sets [^60]
 
 How much data should we train on?
 

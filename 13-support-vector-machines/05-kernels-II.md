@@ -1,8 +1,4 @@
----
-Video: machine-learning/12_support-vector-machines/02_kernels/01_kernels-ii.mp4
----
-
-## Kernels - II
+## Kernels - II [^65]
 
 How do we get the landmarks that we use and how should we integrate them into a support vector machine?
 

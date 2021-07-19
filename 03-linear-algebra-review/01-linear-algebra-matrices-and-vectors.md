@@ -1,8 +1,4 @@
----
-Video: machine-learning/03_linear-algebra-review/01_linear-algebra-review/01_matrices-and-vectors.mp4
----
-
-## Matrices & Vectors
+## Matrices & Vectors [^10]
 
 ### Matrix
 

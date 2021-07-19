@@ -1,8 +1,4 @@
----
-Video: machine-learning/08_neural-networks-representation/01_motivations/01_non-linear-hypotheses.mp4
----
-
-## Motivations: Non-Linear Hypotheses
+## Motivations: Non-Linear Hypotheses [^35]
 
 ### Why do we need Neural Networks?
 

@@ -1,8 +1,4 @@
----
-Video: machine-learning/16_recommender-systems/01_predicting-movie-ratings/01_problem-formulation.mp4
----
-
-## Predicting Movie Ratings
+## Predicting Movie Ratings [^86]
 
 ### Problem Formulation
 
