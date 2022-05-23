@@ -1,9 +1,11 @@
 ## Classification [^23]
 
 Classification is predicting what bucket a given answer should fall in, as opposed to a range of values. For example: is this email message spam or not? In all of these problems we are trying to predict is $y$ which is taking on a value of $0$ or $1$, the "negative" or "positive" classes:
+
 $$
-y\in\left\{0,1\right\}^{0:\ "negative\ class"}_{1:\ "positive class"}
+y \in \left \{0,1\right\}^{0:\ "negative\ class"}_{1:\ "positive class"}
 $$
+
 We will start with classification problems where there're only two cases, later we will take on multi-class classification problems.
 
 ### Logistic Regression
