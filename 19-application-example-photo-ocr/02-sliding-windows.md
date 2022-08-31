@@ -18,15 +18,15 @@ Similar to pedestrian detection, we start with a labeled training set with posit
 
 Starting with the following source image:
 
-<img src="02-sliding-windows.assets/image-20210717051743141.png" alt="image-20210717051743141" style="zoom:33%;" />
+![](02-sliding-windows.assets/image-20210717051743141.png)
 
 After running a scan of small windows across our source image, we may end up with a result that looks like the below where the white regions show that our text detection system has found text.  Where there are regions that are black indicates that the classifier has not found text, and white is where it has found text.  Different shades of gray indicate the confidence of the classifier — where there are lighter shades of gray it thinks it found text, but is less confident about it.
 
-<img src="02-sliding-windows.assets/image-20210717052105957.png" alt="image-20210717052105957" style="zoom:50%;" />
+![](02-sliding-windows.assets/image-20210717052105957.png)
 
 Next we want to draw rectanges around all regions where we think there is text.  For this we apply what's known as an "expansion operator" that takes each of the white regions and expands them — for each pixel, if it's near a white pixel then we convert it to a white pixel.  This gives us a result like the following:
 
-<img src="02-sliding-windows.assets/image-20210717052535103.png" alt="image-20210717052535103" style="zoom:50%;" />
+![](02-sliding-windows.assets/image-20210717052535103.png)
 
 We can now look at this image and draw bounding boxes around the contiguous white regions. We can then eliminate boxes whose aspect ratios don't resemble text (e.g. vertical boxes). These regions are then considered to be areas where the classifier has a high degree of confidence that the they contain text.
 
@@ -38,11 +38,11 @@ As before, we use a supervised learning algorithm with sets of positive and nega
 
 Example positive case:
 
-<img src="02-sliding-windows.assets/image-20210717053608633.png" alt="image-20210717053608633" style="zoom:50%;" />
+![](02-sliding-windows.assets/image-20210717053608633.png)
 
 Example negative case:
 
-<img src="02-sliding-windows.assets/image-20210717053647027.png" alt="image-20210717053647027" style="zoom:50%;" />
+![](02-sliding-windows.assets/image-20210717053647027.png)
 
 Because the aspect ratio of these regions are horizontal, we only do a 1D sliding window from L to R, looking for boundaries between characters.  When it identifies positive cases, then we draw a line on the image to identify the boundary.
 

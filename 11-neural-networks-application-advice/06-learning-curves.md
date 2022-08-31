@@ -19,7 +19,7 @@ Training an algorithm on a very few number of data points (such as 1, 2 or 3) wi
 
 If a learning algorithm is suffering from **high bias**, getting more training data will not **(by itself)** help much.
 
-<img src="06-learning-curves.assets/image-20210507091620692.png" alt="image-20210507091620692" style="zoom:50%;" />
+![](06-learning-curves.assets/image-20210507091620692.png)
 
 ### Experiencing high variance
 
@@ -29,4 +29,4 @@ If a learning algorithm is suffering from **high bias**, getting more training d
 
 If a learning algorithm is suffering from **high variance**, getting more training data is likely to help.  As more data is added both $J_{train}$ and $J_{cv}$ will improve and approach convergence.
 
-<img src="06-learning-curves.assets/image-20210507092018363.png" alt="image-20210507092018363" style="zoom:50%;" />
+![](06-learning-curves.assets/image-20210507092018363.png)

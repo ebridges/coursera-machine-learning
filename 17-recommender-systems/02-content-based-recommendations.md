@@ -4,7 +4,7 @@ A first approach to predicting a movie that has not yet been rated yet is known 
 
 Given a data set where some movies have not been rated by each of the users:
 
-<img src="02-content-based-recommendations.assets/image-20210608075433296.png" alt="image-20210608075433296" style="zoom:50%;" />
+![](02-content-based-recommendations.assets/image-20210608075433296.png)
 
 And, where $n_u=4$ and $n_m=5$.  Also suppose we have a set of features for this dataset: 
 

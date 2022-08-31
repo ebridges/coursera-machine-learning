@@ -16,7 +16,7 @@ The regularization term is: $\frac{\lambda }{2m} \sum^{n}_{j=1} \Theta^{2}_{j}$.
 
 Let's consider three cases related to the value of $\lambda$ in the regularization term, and it's effect on the cost:
 
-<img src="05-regularization-and-bias-variance.assets/image-20210507064102048.png" alt="image-20210507064102048" style="zoom:50%;" />
+![](05-regularization-and-bias-variance.assets/image-20210507064102048.png)
 
 As above, we see that as $\lambda$ increases to some large value (e.g. 10,000), our fit becomes more rigid; conversely, as $\lambda$ approaches zero we tend to overfit the data.
 
@@ -51,4 +51,4 @@ How well does my hypothesis do on the training set and the CV set as we vary the
 
   For small values of lambda you end up underfitting & $J_{cv}$ will be high.  For higher values bias will increase.
 
-<img src="05-regularization-and-bias-variance.assets/image-20210507074020468.png" alt="image-20210507074020468" style="zoom:50%;" />
+![](05-regularization-and-bias-variance.assets/image-20210507074020468.png)

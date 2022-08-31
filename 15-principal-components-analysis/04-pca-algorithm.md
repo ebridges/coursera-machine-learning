@@ -20,7 +20,7 @@ Where $s_j$ is some measure of the range of values for $x_j$, e.g. std deviation
 
 We saw previously that what PCA does is to try to find a lower-dimensional subspace (red lines in below graphs) onto which it can project the data such that it minimizes the squared projection errors (blue lines between the × datapoints and the red lines). 
 
-<img src="04-pca-algorithm.assets/image-20210531161923055.png" alt="image-20210531161923055" style="zoom:50%;" />
+![](04-pca-algorithm.assets/image-20210531161923055.png)
 
 Specifically we want to find a vector $u^{(1)}$ (or, $u^{(1)}$ and $u^{(2)}$ in the 2D case), to define this surface onto which we will project the data.
 

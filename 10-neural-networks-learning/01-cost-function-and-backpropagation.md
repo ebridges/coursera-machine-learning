@@ -2,7 +2,7 @@
 
 Given the following neural network:
 
-<img src="01-cost-function-and-backpropagation.assets/image-20210422131355186.png" alt="image-20210422131355186" style="zoom:33%;" />
+![](01-cost-function-and-backpropagation.assets/image-20210422131355186.png)
 
 And the following training set:
 $$
@@ -20,7 +20,7 @@ In binary classification problems there will be one output unit, or $s_L=1$.  In
 
 Recall that in neural networks, we may have many output nodes. We denote $h_\Theta(x)_k$ as being a hypothesis that results in the $k^{th}$ output.
 
-Recall that the cost function for regularized logistic regression was (cf.: [02-simplified-cost-function.md](machine-learning/07-logistic-regression-model/02-simplified-cost-function.md)):
+Recall that the cost function for regularized logistic regression was (cf.: [02-simplified-cost-function.md](02-simplified-cost-function.md)):
 $$
 J(\theta )=-\frac{1}{m} \sum^{m}_{i=1} \left[ y^{(i)}\  log(h_{\theta }(x^{(i)}))+(1-y^{(i)})\  log(1-h_{\theta }(x^{(i)}))\right]  +\frac{\lambda }{2m} \sum^{n}_{j=1} \theta^{2}_{j}
 $$

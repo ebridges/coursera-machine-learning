@@ -20,19 +20,19 @@ Then, in order to check the convergence of stochastic gradient descent, every 10
 
 These examples should give a sense of the range of phenomena that can occur when we plot the cost function averaged over some range of examples, and to suggest some things we can do in response to them.
 
-<img src="04-stochastic-gradient-descent-convergance.assets/image-20210716043305037.png" alt="image-20210716043305037" style="zoom:50%;" />
+![](04-stochastic-gradient-descent-convergance.assets/image-20210716043305037.png)
 
 Here, in blue we see a plot averaged over the last 1000 or so examples. It's noisy because it's averaged over a small subset and looks like a pretty decent run and showing that the algorithm is converging.  In red we see a slower learning rate.  It starts out learning a bit more slowly but can end up at a slightly better solution.  Recall that stochastic gradient descent doesn't converge at a single global minimum instead the parameters will oscillate around it.  So, by using a smaller learning rate we end up with smaller oscillations, and can result in slightly better value for the prarameters.
 
-<img src="04-stochastic-gradient-descent-convergance.assets/image-20210716043721930.png" alt="image-20210716043721930" style="zoom:50%;" />
+![](04-stochastic-gradient-descent-convergance.assets/image-20210716043721930.png)
 
 In this example, above, in blue it looks like a good run and is showing convergence. In red we see the impact of using a larger number of examples (say, 5000 rather than 1000).  We end up with a smoother curve, as a result of increasing the number of examples.  The disadvantage is that now we're only getting feedback on every 5000 examples, and therefore feedback on how well the algorithm is learning is delayed.
 
-<img src="04-stochastic-gradient-descent-convergance.assets/image-20210716044113947.png" alt="image-20210716044113947" style="zoom:50%;" />
+![](04-stochastic-gradient-descent-convergance.assets/image-20210716044113947.png)
 
 Here, the blue line indicates that the algorithm is just not learning and is remaining flat.  However if we sample with a larger number of examples we may see, as in the red line, that the noise of the blue line is just hiding a very gradual downward trend.  So smoothing out the curve in this case reveals that.  Of course, even if we sample with more examples it's possible that we may end up with the magenta line, which is still flat and provides a more concrete example that our algorithm is not learning.  In that case we have to look elsewhere to improve the learning of the algorithm (e.g. change the learning rate, change the features, etc.).
 
-<img src="04-stochastic-gradient-descent-convergance.assets/image-20210716044600221.png" alt="image-20210716044600221" style="zoom:50%;" />
+![](04-stochastic-gradient-descent-convergance.assets/image-20210716044600221.png)
 
 Here we see that the curve is increasing, and if this is the case the algorightm is diverging, and we should use a smaller learning rate $\alpha$.
 

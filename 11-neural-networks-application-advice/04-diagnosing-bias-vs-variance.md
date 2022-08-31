@@ -5,7 +5,7 @@ In this section we examine the relationship between the degree of the polynomial
 * We need to distinguish whether **bias** or **variance** is the problem contributing to bad predictions.
 * High bias is underfitting and high variance is overfitting. Ideally, we need to find a golden mean between these two.
 
-<img src="04-bias-vs-variance.assets/image-20210507061537709.png" alt="image-20210507061537709" style="zoom:50%;" />
+![](04-bias-vs-variance.assets/image-20210507061537709.png)
 
 The training error will tend to **decrease** as we increase the degree $d$ of the polynomial.
 
@@ -17,4 +17,4 @@ At the same time, the cross validation error will tend to **decrease** as we inc
 
 This summarized in the figure below:
 
-![img](04-bias-vs-variance.assets/I4dRkz_pEeeHpAqQsW8qwg_bed7efdd48c13e8f75624c817fb39684_fixed.png)
+![img](I4dRkz_pEeeHpAqQsW8qwg_bed7efdd48c13e8f75624c817fb39684_fixed.png)

@@ -4,13 +4,13 @@ We can speed up gradient descent by having each of our input values in roughly t
 
 Example if you have two features, and they are off scale from one another, then gradient descent will take a long time to reach the global minimum:
 
-<img src="03-gradient-descent-feature-scaling.assets/image-20210303062155541.png" alt="image-20210303062155541" style="zoom:50%;" />
+![](03-gradient-descent-feature-scaling.assets/image-20210303062155541.png)
 
 Because you have size in the scale of 1000s and num of bedrooms in scale of 1s, the contours become tall and skinny.  This leads to a situation where gradient descent oscillates back & forth before it reaches the minimum.
 
 A way to deal with that would be to scale the features such that they end up on a similar scale:
 
-<img src="03-gradient-descent-feature-scaling.assets/image-20210303062455204.png" alt="image-20210303062455204" style="zoom:50%;" />
+![](03-gradient-descent-feature-scaling.assets/image-20210303062455204.png)
 
 Get every feature into approximately a range from (ideally) $-1 \leq x_i \leq 1$.  Generally, the ranges should be within a narrow range — not too small and not too big:
 $$
@@ -40,4 +40,5 @@ x_2=\frac{numBedrooms-2}{5}
 -0.5\leq x_1\leq0.5,\\
 -0.5\leq x_2\leq0.5
 $$
+
 Generally, replace feature $x_1$ with $\frac{x_i-\mu_i}{s_1}$ where $\mu_1$ is the average value of $x_1$ and $s_1$ is the range (max-min) or the standard deviation of the dataset.

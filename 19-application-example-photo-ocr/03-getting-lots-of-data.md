@@ -4,7 +4,7 @@ When recognizing characters, in order to improve the data set that we traing the
 
 For example, here we have a single letter "A," and by applying distortions to the letter we can can amplify this data set from one letter to 16 letters:
 
-<img src="03-getting-lots-of-data.assets/image-20210717054614327.png" alt="image-20210717054614327" style="zoom:33%;" />
+![](03-getting-lots-of-data.assets/image-20210717054614327.png)
 
 From the domain of speech recognition, we can start with a single sound, and then add different distortions to it: bad cellphone connection, noisy background (e.g. a crowded street, machinery) to multiply the example to many different examples.
 

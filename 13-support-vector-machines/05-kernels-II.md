@@ -60,8 +60,8 @@ You also choose the parameter $\sigma^2$.
 
 * When you have a large $\sigma^2$ then features $f_i$ varies more smoothly: higher bias, lower variance.  The gaussian kernel will fall off more gently.
 
-  <img src="05-kernels-II.assets/image-20210526082858966.png" alt="image-20210526082858966" style="zoom:25%;" />
+  ![](05-kernels-II.assets/image-20210526082858966.png)
 
 * If $\sigma^2$ is small, then the features will vary more abruptly. Lower bias, and higher variance.
 
-  <img src="05-kernels-II.assets/image-20210526083016189.png" alt="image-20210526083016189" style="zoom:25%;" />
+  ![](05-kernels-II.assets/image-20210526083016189.png)

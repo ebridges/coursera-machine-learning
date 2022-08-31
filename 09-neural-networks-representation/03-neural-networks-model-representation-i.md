@@ -2,7 +2,7 @@
 
 At a very simple level a neuron is basically a computational unit that takes inputs from "dendrites" as electrical "spikes" which are channeled to outputs known as "axons."  Dendrites in our model are input features $x_1…x_n$ and the output is the result of our hypothesis function.  You can think of our logistic unit like this:
 
-<img src="03-neural-networks-model-representation-i.assets/image-20210324070057451.png" alt="image-20210324070057451" style="zoom:33%;" />
+![](03-neural-networks-model-representation-i.assets/image-20210324070057451.png)
 
 These inputs and parameters are a matrix, where the first element $x_0$ is known as the "bias unit", and is always one:
 $$
@@ -15,7 +15,7 @@ In neural networks, we use the same hypothesis funtion as in classification: $\f
 
 A **neural network** is just a group of these different neurons strung together:
 
-<img src="03-neural-networks-model-representation-i.assets/image-20210324070620461.png" alt="image-20210324070620461" style="zoom:33%;" />
+![](03-neural-networks-model-representation-i.assets/image-20210324070620461.png)
 
 Layer 1 is referred to as the "input layer" and Layer 3 is the "output layer."  Layer 2 is known as the "hidden layer".  There may be more than one hidden layer, any layer that's not the input nor the output is considered hidden.
 
@@ -34,7 +34,7 @@ $$
 $$
 The values for each of the "activation" nodes is obtained as follows:
 
-<img src="03-neural-networks-model-representation-i.assets/image-20210323213608303.png" alt="image-20210323213608303" style="zoom:50%;" />
+![](03-neural-networks-model-representation-i.assets/image-20210323213608303.png)
 
 This is saying that we compute our each of the activation nodes by using a 3×4 matrix of parameters. We apply each row of the parameters to our inputs to obtain the value for one activation node. More generally, if a network has $s_j$ units in layer $j$, $s_j+1$ units in layer $j+1$, then $\theta^{(j)}$ will be of dimension $s_{j+1}\times(s_j+1)$
 

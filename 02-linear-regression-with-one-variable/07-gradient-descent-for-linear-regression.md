@@ -4,15 +4,15 @@ The cost function in linear regression provides a measure for us to know how wel
 
 The key term we need to apply gradient descent is the derivative of the cost function, outlined below in red:
 
-![](07-gradient-descent-for-linear-regression.assets/NBDraggedImage%207.png)
+![](NBDraggedImage%207.png)
 
 The professor reduces that value to obtain the following functions for a value of j=0, and j=1:
 
-![](07-gradient-descent-for-linear-regression.assets/NBDraggedImage%208.png)
+![](NBDraggedImage%208.png)
 
 When we plug these values back into the original algorithm, we get the following, where the reduced versions of the linear regression model are substituted in for the partial derivatives in the gradient descent algorithm, for each of $\theta_{0}$ and $\theta_{1}$:
 
-![](07-gradient-descent-for-linear-regression.assets/NBDraggedImage%209.png)
+![](NBDraggedImage%209.png)
 
 The cost function for linear regression will always be a bowl shaped (or, "convex") function.  As a result, minimizing it using gradient descent will always lead to the global minimum as there is only one.
 

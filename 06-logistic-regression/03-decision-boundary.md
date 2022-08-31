@@ -14,7 +14,7 @@ $$
 
 When plotted this way all values are placed either above or below a threshold value (i.e. 0.5), with a probability that it's closer or further away from 1 and 0:
 
-<img src="03-decision-boundary.assets/image-20210309065742040.png" alt="image-20210309065742040" style="zoom: 33%;" />
+![](03-decision-boundary.assets/image-20210309065742040.png)
 
 In order to classify a value as a discrete 0 or 1 result, we can translate the output of the hypothesis function as follows:
 
@@ -54,7 +54,7 @@ $$
 
 The **decision boundary** is the line that separates the area where y = 0 and where y = 1; in this illustration it is shown as the diagonal magenta line, where everything above is $y=1$ and the area below is $y=0$:
 
-<img src="03-decision-boundary.assets/image-20210309072426241.png" alt="image-20210309072426241" style="zoom:50%;" />
+![](03-decision-boundary.assets/image-20210309072426241.png)
 
 The decision boundary is not a property of the training data, but of the hypothesis function.
 
@@ -62,7 +62,7 @@ The decision boundary is not a property of the training data, but of the hypothe
 
 A more complex example which has both positive and negative examples in the training set.  The hypothesis has two additional features $\theta_3$ & $\theta_4$:
 
-<img src="03-decision-boundary.assets/image-20210309073449835.png" alt="image-20210309073449835" style="zoom:50%;" />
+![](03-decision-boundary.assets/image-20210309073449835.png)
 
 And we choose a set of parameters like this:
 
@@ -78,4 +78,4 @@ $$
 
 Thus predicting a value of 1 whenever $x^2_1+x^2_2$.  This is an equation for a circle of radius 1 centered on the origin (the magenta line in this illustration), i.e. the decision boundary:
 
-<img src="03-decision-boundary.assets/image-20210309074320334.png" alt="image-20210309074320334" style="zoom:50%;" />
+![](03-decision-boundary.assets/image-20210309074320334.png)

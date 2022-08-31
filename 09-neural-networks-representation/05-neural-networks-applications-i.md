@@ -4,11 +4,11 @@
 
 Consider the following classification problem where we have two input features $x$ which can be either $0$ or $1$.  Here’s an illustration showing only 2 positive and two negative examples, showing all possible values.
 
-<img src="05-neural-networks-applications-i.assets/image-20210327150031309.png" alt="image-20210327150031309" style="zoom:33%;" />
+![](05-neural-networks-applications-i.assets/image-20210327150031309.png)
 
 Here’s a more complex example, showing a non-linear decision boundary that separates the positive from the negative examples:
 
-<img src="05-neural-networks-applications-i.assets/image-20210327150329739.png" alt="image-20210327150329739" style="zoom:33%;" />
+![](05-neural-networks-applications-i.assets/image-20210327150329739.png)
 
 Concretely, what this is doing is 
 $$
@@ -25,7 +25,7 @@ $$
 
 As a single unit neural network to compute this function, with an additional +1 unit as a bias unit for $x_0$:
 
-<img src="05-neural-networks-applications-i.assets/image-20210327161444285.png" alt="image-20210327161444285" style="zoom:33%;" />
+![](05-neural-networks-applications-i.assets/image-20210327161444285.png)
 
 If we assign “weights” for each input — $\Theta_0=-30, \Theta_1=+20, \Theta_2=+20$:
 $$
@@ -35,7 +35,7 @@ It's helpful to think of these parameters as the edges of the network.
 
 The sigmoid function for this as computed by this single neuron network is:
 
-<img src="05-neural-networks-applications-i.assets/image-20210327162806487.png" alt="image-20210327162806487" style="zoom:33%;" />
+![](05-neural-networks-applications-i.assets/image-20210327162806487.png)
 
 Given this set of inputs to the hypothesis, this function (see $\ref{ref3}$) will compute a result for the hypothesis function as follows:
 $$

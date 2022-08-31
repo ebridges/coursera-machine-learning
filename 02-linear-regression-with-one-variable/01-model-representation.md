@@ -1,7 +1,7 @@
 ## Model Representation [^3]
 Suppose you have a friend that is looking to sell a house that is about 1,250 sq. feet.  Based on the observations shown below with red x’s – which do not contain a sale price for a house of 1250 sq. feet – you could make a reasonable guess that the price would be $220,000.00 for the house by drawing a straight line through the data, and deriving the price from the size using it.
 
-<img src="01-model-representation.assets/NBDraggedImage.png" alt="img" style="zoom:33%;" />
+![](01-model-representation.assets/NBDraggedImage.png)
 
 * This is an example of supervised learning, where we’re given the “right answer” (e.g. price) for each example (e.g. square footage) in the data.  
 

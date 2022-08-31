@@ -32,7 +32,7 @@ This is quite laborious and inefficient.  However, when computing step 2, the `s
 
 It turns out that the matrix `S` ($n \times n$) whose only non-zero elements are on the diagonal:
 
-<img src="06-choosing-principal-components.assets/image-20210603063342605.png" alt="image-20210603063342605" style="zoom:50%;" />
+![](06-choosing-principal-components.assets/image-20210603063342605.png)
 
 It's possible to show that for a given value of $k$, the ratio of projection error to total variance (see $\ref{variance}$ above) can be expressed as:
 $$

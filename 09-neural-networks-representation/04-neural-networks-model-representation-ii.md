@@ -6,7 +6,7 @@ Now that we've reviewed what the computation is for a neural network, in this se
 
 Consider this neural network:
 
-<img src="04-neural-networks-model-representation-ii.assets/image-20210324070620461.png" alt="image-20210324070620461" style="zoom: 33%;" />
+![](04-neural-networks-model-representation-ii.assets/image-20210324070620461.png)
 
 Previously we said the sequence of steps to compute the activation values fo the 3 hidden units are these equations; and then we use those activation values to compute the final output of the hypothesis $h_{\Theta }(x)$:
 $$
@@ -31,7 +31,7 @@ z^{(2)}_k=\Theta^{(1)}_{k,0}x_0 + \Theta^{(1)}_{k,1}x_1 + ... \Theta^{(1)}_{k,n}
 $$
 Next, note this combination of numbers from the above calculation:
 
-<img src="04-neural-networks-model-representation-ii.assets/image-20210325084915119.png" alt="image-20210325084915119" style="zoom:50%;" />
+![](04-neural-networks-model-representation-ii.assets/image-20210325084915119.png)
 
 This set of values corresponds to the matrix vector multiplication of $\Theta^{(1)}$ and the the vector $x$.  With this insight we can vectorize this computation of the neural network.
 
@@ -76,11 +76,11 @@ This forward propagation view also helps us to understand what NN might be doing
 
 Consider this model of a neural network:
 
-<img src="04-neural-networks-model-representation-ii.assets/image-20210327141612657.png" alt="image-20210327141612657" style="zoom:33%;" />
+![](04-neural-networks-model-representation-ii.assets/image-20210327141612657.png)
 
 If we ignore Layer 1 for illustration:
 
-<img src="04-neural-networks-model-representation-ii.assets/image-20210327141648725.png" alt="image-20210327141648725" style="zoom:33%;" />
+![](04-neural-networks-model-representation-ii.assets/image-20210327141648725.png)
 
 What we’re left with looks a lot like logistic regression where we’re using the node in Layer 3 (a logistic regression unit) to make a prediction $h_\Theta(x)$.  What the hypothesis is outputting is $g$ (the sigmoid activation function):
 $$
@@ -94,6 +94,6 @@ The neat thing about this is that the features from Layer 2 are themselves learn
 
 From this very sophisticated neural network architectures can be developed, with multiple layers each feeding its activations as input to the next layer via forward propagation. For example:
 
-<img src="04-neural-networks-model-representation-ii.assets/image-20210327144215606.png" alt="image-20210327144215606" style="zoom:33%;" />
+![](04-neural-networks-model-representation-ii.assets/image-20210327144215606.png)
 
 From here, we will take these more abstract intuitions and apply them to more concrete examples.

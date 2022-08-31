@@ -4,7 +4,7 @@ How much data should we train on?
 
 Under certain conditions getting a lot of data and training on a certain kind of learning algorithm could be a very good way to get a very high performance algorithm.
 
-<img src="05-using-large-data-sets.assets/image-20210511073157930.png" alt="image-20210511073157930" style="zoom:50%;" />
+![](05-using-large-data-sets.assets/image-20210511073157930.png)
 
 In this example where 4 different algorithms for classification of confusable words are being compared you can see that they all improve when given larger datasets; indeed, in some cases inferior algorithms on smaller datasets improve so dramatically with larger datasets that they can become the superior algorithm to use.
 

@@ -10,13 +10,13 @@
 
 In comparison to the last lesson, we will not zero out $\theta_{0}$.  In the last lesson, because we only used one of the two parameters, we were able to plot out the cost function on a two dimensional axis:
 
-<img src="04-cost-function-intuition-2.assets/image-20210227100725980.png" alt="image-20210227100725980" style="zoom:35%;" />
+![](04-cost-function-intuition-2.assets/image-20210227100725980.png)
 
 In that curve, we minimized the cost function and could easily see it as the lowest point on the curve.
 
 However, in this lesson we're keeping both parameters, so we wil need a different plat if we want to visualize the cost function across a range of both parameters.  Here we see a 3D surface plot that illustrates this:
 
-<img src="04-cost-function-intuition-2.assets/image-20210227101008948.png" alt="image-20210227101008948" style="zoom:40%;" />
+![](04-cost-function-intuition-2.assets/image-20210227101008948.png)
 
 We see the two theta parameters across the bottom, and the height of the surface above those indicates the value of the cost function.  This bowl like shape illustrates the mimimal values of $\theta_{0},\theta_{1}$ to reach our goal of minimizing the cost function.
 

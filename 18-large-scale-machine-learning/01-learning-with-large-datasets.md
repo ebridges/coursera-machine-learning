@@ -10,8 +10,8 @@ Of course, before we put in the effort of training against a huge dataset, we sh
 
 If our training set's learning curve plotted compared to the cross validation objective looks like this, then it looks like a high variance algorithm and adding more examples would improve performance:
 
-<img src="01-learning-with-large-datasets.assets/image-20210715151655611.png" alt="image-20210715151655611" style="zoom:50%;" />
+![](01-learning-with-large-datasets.assets/image-20210715151655611.png)
 
 But if our plot looks like this, high bias visualization, then it wouldn't make sense to test against more examples:
 
-<img src="01-learning-with-large-datasets.assets/image-20210715151751631.png" alt="image-20210715151751631" style="zoom:50%;" />
+![](01-learning-with-large-datasets.assets/image-20210715151751631.png)

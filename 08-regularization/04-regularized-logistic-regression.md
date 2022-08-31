@@ -4,7 +4,7 @@ As with linear regression, we can regularize logistic regression in order to avo
 
 In the following screenshot the regularized function, shown in pink, is less likely to overfit than the non-regularized function shown in blue.
 
-<img src="04-regularized-logistic-regression.assets/image-20210319082146626.png" alt="image-20210319082146626" style="zoom:50%;" />
+![](04-regularized-logistic-regression.assets/image-20210319082146626.png)
 
 Gradient descent for logistic regression is the same as for linear regression, as follows:
 $$
@@ -33,7 +33,7 @@ This second sum, shown in $(2)$ above **explicitly excludes** the bias term $\th
 
 ### Advanced Optimization
 
-<img src="04-regularized-logistic-regression.assets/image-20210319083200247.png" alt="image-20210319083200247" style="zoom:40%;" />
+![](04-regularized-logistic-regression.assets/image-20210319083200247.png)
 
 Vectors are zero based, but octave indexes from one.
 

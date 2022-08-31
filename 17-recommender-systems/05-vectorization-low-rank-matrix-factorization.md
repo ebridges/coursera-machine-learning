@@ -4,7 +4,7 @@
 
 Given the following dataset with five movies rated by users:
 
-<img src="05-vectorization-low-rank-matrix-factorization.assets/image-20210715111530362.png" alt="image-20210715111530362" style="zoom:33%;" />
+![](05-vectorization-low-rank-matrix-factorization.assets/image-20210715111530362.png)
 
 We take all the ratings by all the users and group them into a $n_m \times n_u$ matrix:
 $$

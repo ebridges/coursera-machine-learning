@@ -14,11 +14,11 @@ $Cost(h_\theta(x),y)=-log(1-h_\theta(x))$          if $y=0$
 
 When $y=1$, we get the following plot for $J(\theta)$ vs $h_\theta(x)$:
 
-<img src="01-cost-function.assets/image-20210312064436435.png" alt="image-20210312064436435" style="zoom:33%;" />
+![](01-cost-function.assets/image-20210312064436435.png)
 
 And, when $y=0$ we get ths plot for $J(\theta)$ vs $h_\theta(x)$:
 
-<img src="01-cost-function.assets/image-20210312064506314.png" alt="image-20210312064506314" style="zoom:33%;" />
+![](01-cost-function.assets/image-20210312064506314.png)
 
 Note some inferences we can make:
 $$

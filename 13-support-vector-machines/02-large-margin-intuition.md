@@ -8,7 +8,7 @@ $$
 $$
 
 
-<img src="02-large-margin-intuition.assets/image-20210511164454280.png" alt="image-20210511164454280" style="zoom:50%;" />
+![](02-large-margin-intuition.assets/image-20210511164454280.png)
 
 Given the goal of minimizing the cost (error) of a given set of parameters.  As we see above, when $y=1$, the cost is minimized only when $z$ (which is shorthand for the product of the transposed vector of parameters and $x$: $\theta^Tx$) is greater than or equal to 1.  And, conversely, if $y=0$ then $\theta^Tx \le -1$.
 
@@ -35,11 +35,11 @@ It turns out when you solve this optimization problem, when you minimize this as
 
 Take this example of a dataset with positive and negative examples:
 
-<img src="02-large-margin-intuition.assets/image-20210512063129637.png" alt="image-20210512063129637" style="zoom:33%;" />
+![](02-large-margin-intuition.assets/image-20210512063129637.png)
 
 This data is _linearly separable_, meaning that there exists many different lines that can separate the positive and negative examples perfectly.  For example, here are three lines that each separate the examples:
 
-<img src="02-large-margin-intuition.assets/image-20210512063312796.png" alt="image-20210512063312796" style="zoom:33%;" />
+![](02-large-margin-intuition.assets/image-20210512063312796.png)
 
 Now the green & magenta cases don't appear to be particularly good choices.  The support vector machine will choose a boundary as the one in black, which does a better job of separating the examples.  Mathematically it has a larger minimum distance ("margin") from the training examples, whereas the green and magenta lines come very close to the examples which seems to do a less good job separating the examples.  For this reason, a SVM is also known as a "large margin classifier," and also due to this margin it gives the SVM a certain robustness because it tries to separate this hypothesis with as large a margin as possible.
 

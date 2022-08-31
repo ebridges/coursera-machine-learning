@@ -4,11 +4,11 @@ For the problem of dimensionality reduction, by far the most commonly used algor
 
 Let's say we have a dataset like this, where we'd like to reduce the dimensions from 2D to 1D:
 
-<img src="03-pca-problem-formulation.assets/image-20210531054039240.png" alt="image-20210531054039240" style="zoom:33%;" />
+![](03-pca-problem-formulation.assets/image-20210531054039240.png)
 
 We can project (shown in green) each of the data elements onto a line (in red) where the distance (in blue) is minimized such that the sum of squares of this distance is minimized.
 
-<img src="03-pca-problem-formulation.assets/image-20210531054249085.png" alt="image-20210531054249085" style="zoom:33%;" />
+![](03-pca-problem-formulation.assets/image-20210531054249085.png)
 
 This is known as the _projection error_, and what PCA does is to find a lower dimensional surface so that the projection error is minimized.
 
@@ -16,11 +16,11 @@ This is known as the _projection error_, and what PCA does is to find a lower di
 
 The goal of principal component analysis, in reducing data from $n$ to $k$ dimensions is to find $k$ lines (vector $u^{(1...k)} \in \mathbb{R}^n$).  For the case of compressing a 3D to a 2D space:
 
-<img src="03-pca-problem-formulation.assets/image-20210531071606738.png" alt="image-20210531071606738" style="zoom:33%;" />
+![](03-pca-problem-formulation.assets/image-20210531071606738.png)
 
 Such that, onto this line we can project the data so as to minimize the projection error:
 
-<img src="03-pca-problem-formulation.assets/image-20210531071655726.png" alt="image-20210531071655726" style="zoom:33%;" />
+![](03-pca-problem-formulation.assets/image-20210531071655726.png)
 
 ### Comparison to Linear Regression
 

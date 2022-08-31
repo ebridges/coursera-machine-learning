@@ -12,7 +12,7 @@ There could be a circumstance where we have many parameters, but we don't know w
 $$
 min_{\theta }\frac{1}{2m} \sum^{m}_{i=1} (h_{\theta }(x^{(i)})-y^{(i)})^{2}+\lambda \sum^{n}_{j=1} \theta^2_j
 $$
-The $\lambda$ value is the **regularization parameter**. It determines how much the costs of our theta parameters are inflated. It controls a tradeoff between two goals: we want to fit the trading data, but we also want to keep the parameters small (keeping the hypothesis simple and avoiding overfitting).  
+The $\lambda$ value is the **regularization parameter**. It determines how much the costs of our theta parameters are inflated. It controls a tradeoff between two goals: we want to fit the training data, but we also want to keep the parameters small (keeping the hypothesis simple and avoiding overfitting).  
 
 Using the above cost function with the extra summation, we can smooth the output of our hypothesis function to reduce overfitting. If lambda is chosen to be too large, it may smooth out the function too much and cause underfitting. 
 

@@ -6,11 +6,11 @@ For many machine learning problems the number of features will be very large.  F
 
 When working with supervised learning on a classification problem that is non-linear such as this:
 
-<img src="01-motivations-non-linear-hypotheses.assets/image-20210321071545510.png" alt="image-20210321071545510" style="zoom:25%;" />
+![](01-motivations-non-linear-hypotheses.assets/image-20210321071545510.png)
 
 We have learned so far that when working with logistic regression we could use a complex quadratic equation that could model a line that can fit that data:
 
-<img src="01-motivations-non-linear-hypotheses.assets/image-20210321071653639.png" alt="image-20210321071653639" style="zoom:33%;" />
+![](01-motivations-non-linear-hypotheses.assets/image-20210321071653639.png)
 
 This method works well when we have only two features $x_1$ and $x_2$, but if we have a more interesting problem this approach doesn't scale well.  For exampfale if we had 100 features, if we ordered all of the quadratic terms we'd approach thousands of quadratic terms as parameters.
 

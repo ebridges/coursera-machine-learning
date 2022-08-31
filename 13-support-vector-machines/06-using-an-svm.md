@@ -15,7 +15,7 @@ If $n$ is large relative to $m$ (e.g. $n\ge m$, $n=10,000$, $m = 10…1,000$), t
 
 If $n$ is small and $m$ is intermediate (e.g. $n=1-1000$, $m=10-10,000$), then use Support Vector Machine with Gaussian kernel.  A concrete example:
 
-<img src="06-using-an-svm.assets/image-20210524055708080.png" alt="image-20210524055708080" style="zoom:50%;" />
+![](06-using-an-svm.assets/image-20210524055708080.png)
 
 If $n$ is small and $m$ is large (e.g. $n=1-1000$, $m=50000+$), add more features & then use logistic regression; or, use a Support Vector Machine without a kernel as modern libraries have a huge performance issue with gaussian kernel and large training set sizes.
 

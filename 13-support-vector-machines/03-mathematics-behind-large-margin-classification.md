@@ -6,7 +6,7 @@ Given two vectors $u$ and $v$, what is $u^Tv$, also known as the _inner product_
 
 As these are 2d vectors they can be plotted like this:
 
-<img src="03-mathematics-behind-large-margin-classification.assets/image-20210523061149208.png" alt="image-20210523061149208" style="zoom:33%;" />
+![](03-mathematics-behind-large-margin-classification.assets/image-20210523061149208.png)
 
 A useful quantity from this is the "norm" or _euclidean length_ of the vector:
 $$
@@ -14,7 +14,7 @@ $$
 $$
 One way to calculate the inner product is to take the length of the projection ("$p$") of $v$ onto $u$ (seen as the red line in this graph:
 
-<img src="03-mathematics-behind-large-margin-classification.assets/image-20210523061405783.png" alt="image-20210523061405783" style="zoom:33%;" />
+![](03-mathematics-behind-large-margin-classification.assets/image-20210523061405783.png)
 
 So that we can obtain the inner product:
 $$

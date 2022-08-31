@@ -12,7 +12,7 @@ $$
 $$
 The goal is to find a decision boundary (blue in the sketch below) that separates the positive and negative labeled examples. The problem that supervised learning solves for us is, given a a set of labels to fit an hypothesis to it.
 
-<img src="00-unsupervised-learning.assets/image-20210527133858784.png" alt="image-20210527133858784" style="zoom:50%;" />
+![](00-unsupervised-learning.assets/image-20210527133858784.png)
 
 With unsupervised learning we're given data that does not have any labels associated with it:
 $$
@@ -20,5 +20,5 @@ $$
 $$
 We give this data to an algorithm and expect it to find some structure in the data for us. Here we see data plotted without labels and a clustering algorithm to identify groupings within the data.
 
-<img src="00-unsupervised-learning.assets/image-20210527134552260.png" alt="image-20210527134552260" style="zoom:50%;" />
+![](00-unsupervised-learning.assets/image-20210527134552260.png)
 

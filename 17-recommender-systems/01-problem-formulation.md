@@ -4,7 +4,7 @@
 
 A user rates movies from zero to five stars.  Assuming this as a dataset (where $?$ means that the user did not watch/rate the movie):
 
-<img src="01-problem-formulation.assets/image-20210608053657177.png" alt="image-20210608053657177" style="zoom:50%;" />
+![](01-problem-formulation.assets/image-20210608053657177.png)
 
 And the following notation:
 

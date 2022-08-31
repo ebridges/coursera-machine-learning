@@ -6,11 +6,11 @@ There is no great way to automatically choosing the number of clusters ($K$).  T
 
 A common way of doing this is to use the _Elbow Method_.  To do so we run k-means with progressively increasing numbers of clusters and plot them against the cost function.   When doing this we end up with a curve that shows the distortion decreasing as a function of the number of clusters.  This curve may demonstrate a distinct point where the distortion decreases rapidly, and then slows down.  That point where it shifts is known as the elbow, and provides an indicator of how many clusters we should use:
 
-<img src="04-choosing-count-of-clusters.assets/image-20210529071042220.png" alt="image-20210529071042220" style="zoom:50%;" />
+![](04-choosing-count-of-clusters.assets/image-20210529071042220.png)
 
 As it happens, often this "elbow" doesn't present itself very clearly, and doesn't make it very clear how many clusters to choose.
 
-<img src="04-choosing-count-of-clusters.assets/image-20210529071352290.png" alt="image-20210529071352290" style="zoom:50%;" />
+![](04-choosing-count-of-clusters.assets/image-20210529071352290.png)
 
 The elbow method is worth a shot but it's not always going to give an answer.
 
@@ -24,7 +24,7 @@ To use the example of t-shirt sizes, let say you run a business where you sell t
 
 So, if we run K-means with K equals 3 & K equals 5, we may end up with groupings like the below:
 
-<img src="04-choosing-count-of-clusters.assets/image-20210529072030208.png" alt="image-20210529072030208" style="zoom:50%;" />
+![](04-choosing-count-of-clusters.assets/image-20210529072030208.png)
 
 To choose, we can think about this from the perspective of the t-shirt business and ask "Well if I have five segments, then how well will my t-shirts fit my customers and so, how many t-shirts can I sell? How happy will my customers be?"  We would choose based on what makes the most sense from the perspective of the t-shirt business, in terms of whether we want to have more t-shirt sizes so that the shirts fit my customers better or do I want to have fewer sizes so that I make fewer sizes of t-shirts, and be able to sell them more cheaply to customers.
 

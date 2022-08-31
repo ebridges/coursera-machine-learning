@@ -4,7 +4,7 @@ We can measure the accuracy of our hypothesis function by using a **cost functio
 
 Given this training set:
 
-<img src="02-cost-function.assets/image-20210226170249413.png" style="zoom: 33%;" />
+![](image-20210226170249413.png)
 
 And the hypothesis:
 $$
@@ -12,13 +12,13 @@ h_{\theta}(x) = \theta_{0} + \theta_{1}x
 $$
 The parameters of the model are represented by the two theta values. With different choices of these parameters, we get different hypothesis function values. Example: note the effect of changing the values of $\theta_{0}$ and $\theta_{1}$ affect the curves in each graph:
 
-![image-20210226170916912](02-cost-function.assets/image-20210226170916912.png)
+![image-20210226170916912](image-20210226170916912.png)
 
 In Linear Regression, using this training set, we want to come up with values for the theta variables to create a straight line corresponds to a straight line that fits the data set. So, how do we do this?
 
 The idea is that we choose $(\theta_{0}, \theta_{1})$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x, y)$, which would result in reasonably active predictions.
 
-<img src="02-cost-function.assets/image-20210226171736567.png" alt="image-20210226171736567" style="zoom:33%;" />
+![](image-20210226171736567.png)
 
 More formally, we want to minimize $(\theta_{0}, \theta_{1})$ and we want $(h(x) - y)^2$ to be small
 

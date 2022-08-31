@@ -67,7 +67,7 @@ $$
 
 To examine this more closely:
 
-<img src="04-linear-algebra-matrix-multiplication.assets/image-20210228211211776.png" alt="image-20210228211211776" style="zoom:25%;" />
+![](04-linear-algebra-matrix-multiplication.assets/image-20210228211211776.png)
 
 * You can only multiply matrices whose dimensions match — the number of columns in the first matrix must match the number of rows in the second matrix.
 * The product is an $m \times o$ matrix. Matrix-vector multiplication is a special case where $o = 1$

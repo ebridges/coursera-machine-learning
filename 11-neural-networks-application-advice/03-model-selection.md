@@ -12,8 +12,7 @@ Just because a learning algorithm fits a training set well, that does not mean i
 
 Let's say you're trying to choose the degree of polynomial to use ("$d$"), to fit your training set:
 
-<img src="03-model-selection.assets/image-20210505074216936.png" alt="image-20210505074216936" style="zoom:50%;" />
-
+![](03-model-selection.assets/image-20210505074216936.png)
 And, we want to choose one of these models and understand how well they will fit to new examples. We could apply each model to a given training set, minimize training error, resulting in a parameter vector $\Theta^{(1,2,…10)}$ for each.  Then we can take each set of parameters and look at test set error for each $J_{test}(\Theta^{(1,2,…10)})$, taking each hypotheses with corresponding parameters and measure the performance on the test set.  
 
 In order to select one of these models, we could see which has the lowest test set error, say $d=5$.  But let's say we want to ask, "how well does this model generalize?" — one thing we could do is to look at how well the $5^{th}$ order polynomial hypothesis did on our test set; however, this is not a fair estimate of how our hypthesis will generalize: $J_{test}(\Theta^{(5)})$ is likely to be an optimistic estimate of generalization error.  This is because we have fit these parameters to the test set already, so they're likely to do well on our training set even if they don't do well on other examples.

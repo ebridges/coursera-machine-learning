@@ -10,7 +10,7 @@ Imagine that we graph our hypothesis function based on its fields $\theta_{0}$ a
 
 We put $\theta_{0}$ on the x axis and $\theta_{1}$ on the y axis, with the cost function on the vertical z axis. The points on our graph will be the result of the cost function using our hypothesis with those specific theta parameters. The graph below depicts such a setup.
 
-![img](05-gradient-descent.assets/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png)
+![img](bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png)
 
 We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum.  The red arrows show the minimum points in the graph.
 
@@ -31,7 +31,7 @@ The technique of Gradient Descent is to start with some arbitrary values for $\t
 
 This graph illustrates the progressive changes in $\theta_{0}, \theta_{1}$ until it arrives at a local minimum in the dark blue region.
 
-<img src="05-gradient-descent.assets/image-20210228124229404.png" alt="image-20210228124229404" style="zoom:30%;" />
+![](05-gradient-descent.assets/image-20210228124229404.png)
 
 ### Method
 

@@ -6,13 +6,13 @@ p(x;\mu\Sigma)=\frac{1}{(2\pi)^{\frac{n}{2}}|\Sigma|^{\frac{1}{2}}}exp\left(-\fr
 $$
 By varying $\mu$ and $\Sigma$ you can get a range of different distributions, as seen earlier:
 
-<img src="08-anomaly-detection-using-multivariate-gaussian-distribution.assets/image-20210606182945164.png" alt="image-20210606182945164" style="zoom:67%;" />
+![](08-anomaly-detection-using-multivariate-gaussian-distribution.assets/image-20210606182945164.png)
 
 ### Parameter Estimation & Fitting
 
 If we have a set of examples in a training set: \{\}, and we believe the examples come from a multivariate normal distribution, how do we estimate the values of $\mu$  and $\Sigma$?
 
-As [described earlier](machine-learning/16-anomaly-detection/02-gaussian-distribution.md) the standard formula for estimating these values is to first estimate the value of $\mu$ as follows:
+As [described earlier](02-gaussian-distribution.md) the standard formula for estimating these values is to first estimate the value of $\mu$ as follows:
 $$
 \mu=\frac{1}{m}\sum^{m}_{i=1}x^{(i)}
 $$

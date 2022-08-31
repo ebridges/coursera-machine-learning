@@ -16,23 +16,23 @@ p(x;\mu, \sigma^2)=\frac{1}{\sqrt{2\pi}\sigma}exp\left(-\frac{(x-\mu)^2}{2\sigma
 $$
 When plotted it looks like this:
 
-![image-20210603163846977](02-gaussian-distribution.assets/image-20210603163846977.png)
+![image-20210603163846977](image-20210603163846977.png)
 
 #### Some examples of Gaussian distributions
 
-![image-20210603164003819](02-gaussian-distribution.assets/image-20210603164003819.png)
+![image-20210603164003819](image-20210603164003819.png)
 
-![image-20210603164054339](02-gaussian-distribution.assets/image-20210603164054339.png)
+![image-20210603164054339](image-20210603164054339.png)
 
-![image-20210603164155961](02-gaussian-distribution.assets/image-20210603164155961.png)
+![image-20210603164155961](image-20210603164155961.png)
 
-![image-20210603164416187](02-gaussian-distribution.assets/image-20210603164416187.png)
+![image-20210603164416187](image-20210603164416187.png)
 
 ### Parameter Estimation
 
 Given a dataset $\{x^{(1)}, x^{(2)}, …, x^{(m)}\}$ where  $x^{(1)}\in\mathbb{R}$, that when plotted look like this:
 
-![image-20210603164648030](02-gaussian-distribution.assets/image-20210603164648030.png)
+![image-20210603164648030](image-20210603164648030.png)
 
 Let's say we suspect that these examples are distributed according to a normal distribution, as they are roughly clustered around one point ($\mu$) on the horizontal axis, with more distance between points as they move away.  However, I do not know what the mean or variance is.  
 

@@ -24,7 +24,7 @@ Rather than going through all that, he will just show us how to go about solving
 
 Given the following test training dataset, with 4 training examples ($m=4$), and 4 features ($x_n$) with an additional feature $x_0$:
 
-|       | Size ($ft^2$) | #Bedrooms | #Floors | Age (years) | Price ($1000) |
+|       | Size ($ft^2$) | # Bedrooms | # Floors | Age (years) | Price ($1000) |
 | :---: | :-----------: | :-------: | :-----: | :---------: | ------------- |
 | $x_0$ |     $x_1$     |   $x_2$   |  $x_3$  |    $x_4$    | $y$           |
 |   1   |     2104      |     5     |    1    |     45      | 460           |

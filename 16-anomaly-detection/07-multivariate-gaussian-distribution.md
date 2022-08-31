@@ -6,7 +6,7 @@ Multivariate Gaussian Distribution is an extenstion to the anomaly detection alg
 
 To illustrate an example that can help us to understand an application for multivariate Gaussian distribution, consider a scenario where we're monitoring machines in a data center for anomalous behavior.
 
-![image-20210606162232073](07-multivariate-gaussian-distribution.assets/image-20210606162232073.png)
+![image-20210606162232073](image-20210606162232073.png)
 
 In the above set of graphs, we see training examples plotted in red and an anomalous example in green.
 
@@ -36,7 +36,7 @@ $$
 $$
 Here're two plots of $p(x)$ for those values:
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606164310636.png" alt="image-20210606164310636" style="zoom:67%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606164310636.png)
 
 So, for a specific value of $x_1$ and another for $x_2$ then the height at that location on the graph will give a value for $p(x)$ for that combination of features.  In the second plot, this probability is plotted as a variation in color.
 
@@ -47,7 +47,7 @@ $$
 $$
 Then we see that the width of the cone diminishes, you end up with a narrower distribution whose height is taller:
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606164556994.png" alt="image-20210606164556994" style="zoom:67%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606164556994.png)
 
 In contrast, if we increase the variance:
 $$
@@ -56,7 +56,7 @@ $$
 $$
 Then the plot gets shorter and broader, indicating that the variability of $x_1$ and $x_2$ gets wider:
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606164837303.png" alt="image-20210606164837303" style="zoom:67%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606164837303.png)
 
 In this example we vary sigma by reducing the variance of $x_1$ while keeping the variance of $x_2$ the same.
 $$
@@ -65,7 +65,7 @@ $$
 $$
 In the plot, more clearly in the second plot, you can see that $x_1$ has a narrower characteristic compared to $x_2$
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606165122910.png" alt="image-20210606165122910" style="zoom:67%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606165122910.png)
 
 ##### Modeling Correlations 
 
@@ -87,7 +87,7 @@ $$
 \Sigma&=\begin{bmatrix}1&0.8\\ 0.8&1\end{bmatrix}
 \end{aligned}
 $$
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606170710173.png" alt="image-20210606170710173" style="zoom:50%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606170710173.png)
 
 In contrast if we change these variance values to be negative, then we get a model where the values are negatively correlated — $p(x)$ will be high if $x_1$ is low and $x_2$ is high & vice versa:
 $$
@@ -109,7 +109,7 @@ $$
 $$
 
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606171159770.png" alt="image-20210606171159770" style="zoom:50%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606171159770.png)
 
 ##### Varying the Mean
 
@@ -135,4 +135,4 @@ $$
 $$
 
 
-<img src="07-multivariate-gaussian-distribution.assets/image-20210606171620892.png" alt="image-20210606171620892" style="zoom:50%;" />
+![](07-multivariate-gaussian-distribution.assets/image-20210606171620892.png)

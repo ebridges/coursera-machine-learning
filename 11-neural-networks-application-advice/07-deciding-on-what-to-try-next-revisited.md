@@ -28,7 +28,7 @@ Our decision process can be broken down as follows:
 
 ### Diagnosing Neural Networks
 
-<img src="07-deciding-on-what-to-try-next-revisited.assets/image-20210509082416635.png" alt="image-20210509082416635" style="zoom:50%;" />
+![](07-deciding-on-what-to-try-next-revisited.assets/image-20210509082416635.png)
 
 * A neural network with fewer parameters is **prone to underfitting**. It is also **computationally cheaper**.
 * A large neural network with more parameters is **prone to overfitting**. It is also **computationally expensive**. In this case you can use regularization (increase λ) to address the overfitting.

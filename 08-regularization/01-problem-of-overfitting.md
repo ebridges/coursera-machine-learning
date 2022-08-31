@@ -4,7 +4,7 @@ Consider a case where a linear hypothesis function does not fit the data very we
 
 So for example, the leftmost curve shows a linear function $y=\theta_0+\theta_1x$ plotted against some data.  As can be seen, it doesn't fit the data very well.
 
-![image-20210314081322683](01-problem-of-overfitting.assets/image-20210314081322683.png)
+![image-20210314081322683](image-20210314081322683.png)
 
 Take the centermost figure, where we added an extra feature $x^2$, and plot $y=\theta_0+\theta_1x+\theta_2x^2$, which provides a slightly better fit.  Naively it might seem that if we add yet more features we would get a better fit; the rightmost figure is the result of fitting a $5^{th}$ order polynomial: $y=\sum^{5}_{j=0}\theta_jx^j$.  Though this passes through all of the training data perfectly, it would not necessarily be a good predictor.  This is an example of "overfitting".
 
@@ -14,7 +14,7 @@ Also known as "high bias", _underfitting_ is when the form of our hypothesis fun
 
 These terms apply to both linear and logistic regression.
 
-<img src="01-problem-of-overfitting.assets/image-20210314082906924.png" alt="image-20210314082906924" style="zoom:50%;" />
+![](01-problem-of-overfitting.assets/image-20210314082906924.png)
 
 We may have a lot of features in the training data, but not enough training data.
 

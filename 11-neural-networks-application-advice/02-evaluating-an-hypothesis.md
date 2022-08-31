@@ -17,7 +17,7 @@ Compute the squared error for the test set.
 
 #### For Logistic Regression
 
-First, learn parameters from the training data, and then compute test error using the [same cost function](07-logistic-regression-model/02-simplified-cost-function.md) that we always use for logistic regression except we're substituting in the test set, as follows:
+First, learn parameters from the training data, and then compute test error using the [same cost function](02-simplified-cost-function.md) that we always use for logistic regression except we're substituting in the test set, as follows:
 
 $$
 J_{test}(\Theta)=-\frac{1}{m_{test}}\sum^{m_{test}}_{i=1}y^{(i)}_{test}log\ h_{\Theta}(x^{(i)}_{test})+(1-y^{(i)}_{test})log\ h_{\Theta}(x^{(i)}_{test})

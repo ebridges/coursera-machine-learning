@@ -10,7 +10,7 @@ Let’s start by taking a fresh look at what’s happening in Forward Propagatio
 
 Starting with this neural network:
 
-<img src="03-backpropagation-intuition.assets/image-20210430201903955.png" alt="image-20210430201903955" style="zoom:50%;" />
+![](03-backpropagation-intuition.assets/image-20210430201903955.png)
 
 * Given a training set $(x^{(i)}, y^{(i)})$ these are fed into the input layer.
 * When we forward propagate to the first hidden layer, what we do is compute $z^{(2)}_1$ and $z^{(2)}_2$ , these are the weighted sum of inputs of the input units.  Then we apply the sigmoid activation function applied to the $z$ values giving us $a^{(2)}_1$ and $a^{(2)}_2$.
@@ -61,7 +61,7 @@ These provide a measure of how much we would want to change the weights of the i
 
 Let us consider the following neural network below and see how we could calculate some $$\delta_j^{(l)}$$:
 
-![img](03-backpropagation-intuition.assets/qc309rdcEea4MxKdJPaTxA_324034f1a3c3a3be8e7c6cfca90d3445_fixx.png)
+![img](qc309rdcEea4MxKdJPaTxA_324034f1a3c3a3be8e7c6cfca90d3445_fixx.png)
 
 In the image above, to calculate $$\delta_2^{(2)}$$, we multiply the weights $$\Theta_{12}^{(2)}$$ and $$\Theta_{22}^{(2)}$$ by their respective $$\delta$$ values found to the right of each edge. So we get 
 

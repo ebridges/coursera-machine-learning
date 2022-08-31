@@ -6,7 +6,7 @@ With large datasets gradient descent becomes a computationally expensive procedu
 
 **Linear Regression with Gradient Descent**
 
-<img src="02-stochastic-gradient-descent.assets/image-20210715152337107.png" alt="image-20210715152337107" style="zoom:50%;" />
+![](02-stochastic-gradient-descent.assets/image-20210715152337107.png)
 
 To recap $h_\theta(x)$ is our hypothesis and our cost function is $J(\theta)$, which is the sum of one half of the average square error of the hypothesis on $m$ training examples.
 

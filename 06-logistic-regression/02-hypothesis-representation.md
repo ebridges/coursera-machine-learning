@@ -14,7 +14,7 @@ g(z)=\frac{1}{1+e^{-z}} \\
 h_\theta(x)=\frac{1}{1+e^{-\theta^Tx}}
 $$
 
-![image-20210308071811211](02-hypothesis-representation.assets/image-20210308071811211.png)
+![image-20210308071811211](image-20210308071811211.png)
 
 The function $g(z)$ maps any real number to the (0, 1) interval, making it useful for transforming an arbitrary-valued function into a function better suited for classification.
 

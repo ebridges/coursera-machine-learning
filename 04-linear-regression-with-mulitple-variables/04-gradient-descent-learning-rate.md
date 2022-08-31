@@ -11,7 +11,7 @@ Plot the value of $J(\theta)$ against hte number of iterations.  $J(\theta)$ sho
 
 The number of iterations that convergence may take varies widely and is difficult to determine in advance.
 
-<img src="04-gradient-descent-learning-rate.assets/image-20210303070229925.png" alt="image-20210303070229925" style="zoom:50%;" />
+![](04-gradient-descent-learning-rate.assets/image-20210303070229925.png)
 
 #### Automatic Convergence Test
 
@@ -25,13 +25,13 @@ Typically easier to just use a plot, as it can give you indications that gradien
 
 If a plot $J(\theta)$ is not showing convergence over the number of iterations, then it's clear that gradient descent is not working.
 
-<img src="04-gradient-descent-learning-rate.assets/image-20210303070826884.png" alt="image-20210303070826884" style="zoom:50%;" />
+![](04-gradient-descent-learning-rate.assets/image-20210303070826884.png)
 
-<img src="04-gradient-descent-learning-rate.assets/image-20210303071154728.png" alt="image-20210303071154728" style="zoom:50%;" />
+![](04-gradient-descent-learning-rate.assets/image-20210303071154728.png)
 
 To address this you should use a smaller learning rate, as what's happening is that gradient descent is oscillating and overshooting the minimum.
 
-<img src="04-gradient-descent-learning-rate.assets/image-20210303072124746.png" alt="image-20210303072124746" style="zoom:50%;" />
+![](04-gradient-descent-learning-rate.assets/image-20210303072124746.png)
 
 For sufficiently small $\alpha$, then $J(\theta)$ should decrease on every iteration. But if $\alpha$ is too small, gradient descent will be slow to converge.  If it's too large, $J(\theta)$ may not decrease on every iteration, converging eventually or not at all.
 

@@ -14,11 +14,11 @@ Logistic regression is one of the most popular algorithms for doing classificati
 
 To attempt classification, one method is to use linear regression and map all predictions greater than 0.5 as a 1, and all less than 0.5 as a 0.  
 
-<img src="01-classification.assets/image-20210308070234914.png" alt="image-20210308070234914" style="zoom: 33%;" />
+![](01-classification.assets/image-20210308070234914.png)
 
 However, this method doesn't work well because classification is not actually a linear function.  In this example here, you can see if there happens to be one extreme point in the training data, it will force the midpoint over to the right:
 
-<img src="01-classification.assets/image-20210308070450514.png" alt="image-20210308070450514" style="zoom: 33%;" />
+![](01-classification.assets/image-20210308070450514.png)
 
 The classification problem is just like the regression problem except that the values we now want to predict take on only a small number of discrete values.
 

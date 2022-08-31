@@ -4,11 +4,10 @@
 $$
 min_\Theta J(\Theta)
 $$
-That is, we want to minimize our cost function $J$ using an optimal set of parameters in theta. In order to compute this we would need to code the cost function for the set of parameters, $\Theta$ and these partial derivative terms (as [described here](machine-learning/07-logistic-regression-model/03-gradient-descent.md)):
+That is, we want to minimize our cost function $J$ using an optimal set of parameters in theta. In order to compute this we would need to code the cost function for the set of parameters, $\Theta$ and these partial derivative terms (as [described here](03-gradient-descent.md)):
 $$
 \frac{\partial}{\partial \Theta^{{(l)}}_{i,j}} J(\Theta)
 $$
-
 ### Gradient Computation
 
 We start with forward propagation to calculate what our hypothesis actually computes, using one training example (x, y):
@@ -23,10 +22,9 @@ z^{(4)}&=\Theta^{(3)}a^{(3)} \\
 a^{(4)}&=h_\Theta(x) = g(z^{(4)}) 
 \end{align*}
 $$
-![image-20210430131216538](02-backpropagation-algorithm.assets/image-20210430131216538.png)
+![image-20210430131216538](image-20210430131216538.png)
 
-$a$ are the activation values for each layer, and is the result of the calculation of the sigmoid function with the product of the previous activation and parameter. See “[Explanation of Computation in a Neural Network](machine-learning/09-neural-networks-representation/03-neural-networks-model-representation-i.md)” for more background on that.
-
+$a$ are the activation values for each layer, and is the result of the calculation of the sigmoid function with the product of the previous activation and parameter. See “[Explanation of Computation in a Neural Network](03-neural-networks-model-representation-i.md)” for more background on that.
 ### Intuition for Backprogation Algorithm
 
 For each node we’re going to calculate the term $\delta^{(l)}_j$ that will somehow represent the “error" of node $j$ in $l$.  Recall that $a^l_j$ is the activation of the $j^{th}$ unit in layer $l$.  This delta term will capture the error of the activation of that node (or, how we might wish that the activation of that node was somehow different).
@@ -48,7 +46,6 @@ $$
 * Each delta computation is the result of the theta value for that layer times the delta for the previous layer, times the derivative of the activation function $g$ evaluated at the input values given by $z^{(L)}$ — denoted by $g^\prime$.
 * There is no $\delta^{(1)}$, as the first layer corresponds to the input layer, which is just the features we observed in the training set and there is no error associated with that.
 * It’s called "back” propagation as we start with the output layer and go backwards through the activation layers to the input layer.
-
 ### Back propagation Algorithm
 
 Suppose we have an arbitraily large training set:

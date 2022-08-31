@@ -22,7 +22,7 @@ Putting all of this together the algorithm for anomaly detection is as follows:
 
 Here's a plot of a dataset:
 
-![image-20210603173745240](03-algorithm.assets/image-20210603173745240.png)
+![image-20210603173745240](image-20210603173745240.png)
 
 We can estimate, just by guessing from looking at the plot, that:
 $$
@@ -31,7 +31,7 @@ $$
 $$
 Based on those, the probability distributions for these features would look something like these:
 
-![image-20210603174529606](03-algorithm.assets/image-20210603174529606.png)
+![image-20210603174529606](image-20210603174529606.png)
 
 And, from those two probabilities we would state that:
 $$
@@ -39,18 +39,18 @@ p(x)=p(x_1; \mu_1, \sigma^2_1) \times p(x_2; \mu_2, \sigma^2_2)
 $$
 It turns out if we were to plot $p(x)$ as a surface plot it'd look something like this:
 
-<img src="03-algorithm.assets/image-20210603174735314.png" alt="image-20210603174735314" style="zoom:50%;" />
+![](03-algorithm.assets/image-20210603174735314.png)
 
 Where the height of above the surface at a particular point is the probability that the combination of those two features ($x_1 \& x_2$) is anomalous.
 
 Now, let's say we have two new items that are to be tested, represented in green here and we want to determine whether they are anomalies.
 
-![image-20210603175005692](03-algorithm.assets/image-20210603175005692.png)
+![image-20210603175005692](image-20210603175005692.png)
 
 Let's say we choose a value of $\epsilon=0.02$ and we compute $p(x^{(1)}_{test})$, and we find that it's 0.0426. As that's greater than $\epsilon$, then we can say that $x^{(1)}_{test}$ is not anomalous.  However, say we find that $p(x^{(2)}_{test})$ has a probability of 0.0021, which is much lower than $\epsilon$, then we'd want to reexamine that example as it's likely an anomaly.
 
 What this 3D surface plot is saying is that all the points that are far above the surface has a high probability of being normal. In the plots below consider that there are regions, in magenta, where there's a high probability that the example is anomalous.  
 
-![image-20210603175415715](03-algorithm.assets/image-20210603175415715.png)
+![image-20210603175415715](image-20210603175415715.png)
 
-![image-20210603175715090](03-algorithm.assets/image-20210603175715090.png)
+![image-20210603175715090](image-20210603175715090.png)

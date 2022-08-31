@@ -10,11 +10,11 @@ Let's say an airplane engine manufacturer does QA on engines as they come off th
 
 This results in the dataset: $\{x^{(1)}, x^{(2)}, …, x^{(m)}\}$ that would look like this when plotted (where each red $\times$ represents a single engine):
 
-![image-20210603161020413](01-density-estimation.assets/image-20210603161020413.png)
+![image-20210603161020413](image-20210603161020413.png)
 
 Now, say, a new engine comes off the production line. We would like to know if this new engine is anomalous in any way — should this engine undergo further testing? or should we ship it to customers?
 
-![image-20210603160941430](01-density-estimation.assets/image-20210603160941430.png)
+![image-20210603160941430](image-20210603160941430.png)
 
 If the data for this new engine — $x_{test}$ — is consistent with engines that we've seen before, we might say it's okay.  However, if any of the features are inconsistent we would describe it as anomalous.
 
@@ -25,7 +25,7 @@ p(x_{test})\ge\epsilon \rightarrow consistent
 $$
 So given a training set like that plotted, the model $p(x)$ will give progressively higher probability that the test data set (represented by green $\times$) is anomalous:
 
-![image-20210603161810676](01-density-estimation.assets/image-20210603161810676.png)
+![image-20210603161810676](image-20210603161810676.png)
 
 ### Applications of Anomaly Detection
 

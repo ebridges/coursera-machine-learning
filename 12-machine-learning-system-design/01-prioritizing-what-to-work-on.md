@@ -10,8 +10,7 @@ The first decision we must make is how do we want to represent the features $x$ 
 
 Given an email that we'd like to see whether is spam or not:
 
-<img src="01-prioritizing-what-to-work-on.assets/image-20210510052720010.png" alt="image-20210510052720010" style="zoom:50%;" />
-
+![](01-prioritizing-what-to-work-on.assets/image-20210510052720010.png)
 We can then encode it into a feature vector by seeing whether or not those words appear in the email:
 $$
 x = \begin{bmatrix}0\\ 1\\ 1\\ 0\\ \vdots \\ 1\\ \vdots \\ \end{bmatrix} \begin{matrix}andrew\\ buy\\ deal\\ discount\\ \vdots \\ now\\ \vdots \end{matrix}

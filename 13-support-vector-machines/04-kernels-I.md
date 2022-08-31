@@ -4,7 +4,7 @@ Adapting support vector machines in order to develop complex nonlinear classifie
 
 ### Non-linear Decision Boundary
 
-<img src="04-kernels-I.assets/image-20210525073448860.png" alt="image-20210525073448860" style="zoom:50%;" />
+![](04-kernels-I.assets/image-20210525073448860.png)
 
 When we're faced with a boundary that's non-linear in this way, in order to model this boundary to distinguish positive & negative values, one way to do so is to find a complex set of polynomial features (e.g. $\theta_4x^2_1$).
 
