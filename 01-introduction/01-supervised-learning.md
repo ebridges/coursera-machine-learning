@@ -2,7 +2,7 @@
 
 Given a dataset for housing prices, where the price is given as a function of the size in sq. feet of the house, you can sketch a straight line through the data as a way to predict prices for square footage that is not directly indicated by the sample data.
 
-<img src="01-supervised-learning.assets/NBDraggedImage.png" style="zoom: 25%;" />
+![[NBDraggedImage 01.png|600]]
 
 However, some datasets are not well represented by a straight line.  So, in this example we can use a quadratic line (here shown in blue) to more closely match the data.  As a result, it gives a different prediction for the size in question (in this case, predicting a price of 200k instead of 150k for 750 sq. ft.).
 

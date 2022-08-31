@@ -33,12 +33,12 @@ Our objective is to get the best possible line. The best possible line will be s
 
 Each value of $\theta_{1}$ corresponds to a different hypothesis, or different straightline fit.  For each value we can derive a different value for $J(\theta_{1})$,  we can then use these different values for $J(\theta_{1})$ to plot out a curve like so:
 
-<img src="03-cost-function-intuition-1.assets/NBDraggedImage 2.png" style="zoom: 25%;" />
+![[03-cost-function-intuition-1.assets/image-20220831.png|400]]
 
 The optimization objective for a learning algorithm is to choose the value of $\theta_{1}$ that minimizes $J(\theta_{1})$. Turns out that as $J(\theta_{1})$ approaches zero, the hypothesis becomes a better fit for the data because the squared differences between $h(x)$ (the hypothesized result for the size of the house) and $y$ (actual prices for houses sold at a given size) approaches zero.
 
 The relationship between $h(x)$ and $J(\theta_{1})$ is shown in this screenshot:
 
-![image-20210226214128715](03-cost-function-intuition-1.assets/image-20210226214128715.png)
+![](03-cost-function-intuition-1.assets/image-20210226214128715.png)
 
 The process of mininmizing using the cost function $J$ shows us that the best fit is where $\theta_{1}$ is equal to `1`. This is confirmed in the left side of the screenshot where we see that the result of plotting $h_{\theta}(x) = \theta_{1}x$ with a value of $\theta_{1}$ = 1 matches very closely to the original dataset of: $(0, 0), (1, 1), (2, 2)$
